@@ -4,7 +4,7 @@ lang: en-US
 ---
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
 
-# <div><p style="font-variant: small-caps; display: inline;">Sanxing Chen</p> (<p style="font-family:'Noto Serif SC', serif; display: inline;">陈三星</p>)</div>
+# <div><p style="font-variant: small-caps; display: inline;">Sanxing Chen</p> <p style="font-family:'Noto Serif SC', serif; display: inline;">陈三星</p></div>
 
 <style type="text/css"> 
 @media (min-width: 767px) {
@@ -24,7 +24,7 @@ lang: en-US
 
 ## Bio
 
-I'm an undergraduate student studying Computer Science at the [China University of Geosciences (Beijing)](http://www.cugb.edu.cn/EnglishWeb/index.html). I'll join the [UVa computer science department](https://engineering.virginia.edu/departments/computer-science) as a research master student this fall. I have a broad interest in how to make the computer understand human language, aka. natural language processing, and how to gain more understanding of language by using computational approaches, aka. computational linguistics. I'm currently working on domain adaptation for machine translation as my undergraduate dissertation with Prof. [Xiaohui Ji](https://www.researchgate.net/scientific-contributions/69798625_Xiaohui_Ji). I have two internship experiences in Microsoft Research Asia at the Big Data Mining group in which I was working on [multilingual entity recognition](https://github.com/Microsoft/Recognizers-Text) under the supervision of Dr. [Börje Karlsson](https://www.microsoft.com/en-us/research/people/borjekar/) and [Guoxin Wang](https://www.microsoft.com/en-us/research/people/guow/).
+I'm an undergraduate student studying Computer Science at the [China University of Geosciences (Beijing)](http://www.cugb.edu.cn/EnglishWeb/index.html). I'll join the [UVa computer science department](https://engineering.virginia.edu/departments/computer-science) as a research master student this fall. I have a broad interest in how to make the computer understand human language, aka. natural language processing, and how to gain more understanding of language by using computational approaches, aka. computational linguistics. I'm currently working on domain adaptation for machine translation as my undergraduate dissertation with Prof. [Xiaohui Ji](https://www.researchgate.net/scientific-contributions/69798625_Xiaohui_Ji). I have two internship experiences in Microsoft Research Asia at the Big Data Mining group where I was working on [multilingual entity recognition](https://github.com/Microsoft/Recognizers-Text) under the supervision of Dr. [Börje Karlsson](https://www.microsoft.com/en-us/research/people/borjekar/) and [Guoxin Wang](https://www.microsoft.com/en-us/research/people/guow/).
 
 ## News  :tada:
 
@@ -46,4 +46,4 @@ I'm an undergraduate student studying Computer Science at the [China University 
 - staychan [dot] cn [at] gmail [dot] com
 - stay [at] email [dot] virginia [dot] edu
 
-<a class="twitter-timeline" data-lang="en" data-width="390" data-height="600" data-link-color="#559421" href="https://twitter.com/sanxing_chen?ref_src=twsrc%5Etfw">Tweets by sanxing_chen</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-lang="en" data-width="390" data-height="600" data-link-color="#e57200" href="https://twitter.com/sanxing_chen?ref_src=twsrc%5Etfw">Tweets by sanxing_chen</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
