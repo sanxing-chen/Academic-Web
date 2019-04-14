@@ -2,8 +2,25 @@
 title: Sanxing Chen - UVa CS
 lang: en-US
 ---
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
 
-# <div style="font-family:STFangsong;">Sanxing Chen (陈三星)</div>
+# <div><p style="font-variant: small-caps; display: inline;">Sanxing Chen</p> (<p style="font-family:'Noto Serif SC', serif; display: inline;">陈三星</p>)</div>
+
+<style type="text/css"> 
+@media (min-width: 767px) {
+    #myimg {
+        width: 210px;
+    }
+}
+
+@media (max-width: 767px) {
+    #myimg {
+        width: 128px;
+    }
+}
+</style>
+
+<img src="./img/gubei.png" alt="img" id="myimg" style="float:right;border-radius: 51%;transition: width 0.5s;">
 
 ## Bio
 
