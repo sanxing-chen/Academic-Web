@@ -8,5 +8,13 @@ module.exports = {
       navbar: false,
       sidebar: false,
       lastUpdated: 'Last Updated'
-    }
+    },
+    plugins: [
+      [ 
+        '@vuepress/google-analytics',
+        {
+          'ga': 'UA-76805514-4' // UA-00000000-0
+        }
+      ]  
+    ] 
   }
