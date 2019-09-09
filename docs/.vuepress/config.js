@@ -1,3 +1,6 @@
+const glob = require('glob');
+let markdownFiles = glob.sync('post/*.md').map(f => '/' + f); 
+
 module.exports = {
     base: '/~sc3hn/',
     head: [
@@ -5,8 +8,14 @@ module.exports = {
     ],
     themeConfig: {
       search: false,
-      navbar: false,
-      sidebar: false,
+      nav: [
+        { text: 'Home', link: '/' },
+        { text: 'Blog', link: '/post/index/' },
+        { text: 'GitHub', link: 'https://github.com/STayinloves' },
+      ],
+      sidebar: {
+        '/post/': markdownFiles
+      },
       lastUpdated: 'Last Updated'
     },
     plugins: [

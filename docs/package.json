@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
+    "glob": "^7.1.4",
     "vuepress": "^1.0.0-rc.1"
   }
 }
