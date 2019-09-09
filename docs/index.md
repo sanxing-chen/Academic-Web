@@ -9,7 +9,7 @@ lang: en-US
 <style type="text/css"> 
 @media (min-width: 767px) {
     #myimg {
-        width: 210px;
+        width: 260px;
     }
 }
 
@@ -20,15 +20,15 @@ lang: en-US
 }
 </style>
 
-<img src="./img/gubei.png" alt="img" id="myimg" style="float:right;border-radius: 51%;transition: width 0.5s;">
 
 ## Bio
 
-I'm an undergraduate student studying Computer Science at the [China University of Geosciences (Beijing)](http://www.cugb.edu.cn/EnglishWeb/index.html). 
-I'll be joining the [UVa computer science department](https://engineering.virginia.edu/departments/computer-science) as a research master student this fall!
+<img src="./img/uva.jpg" alt="img" id="myimg" style="float:right;border-radius: 0 12% 0 0;transition: width 0.5s;opacity: 0.8;">
 
-My long-term research interests lie primarily in helping computers to learn natural languages like us human. 
-Currently, I focus on developing intuitive learning paradigms to guide machines with more informative feedbacks and interpretable language representations.
+I'm a first-year master student in computer science at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), where I work with Prof. [Yangfeng Ji](http://yangfengji.net).
+
+My long-term research interests lie primarily in helping computers to learn natural languages like us human.
+Currently, I focus on developing intuitive learning algorithms for grounded language learning and code generation (i.e. semantic parsing). I'm also interested also interpretable language representations.
 
 Previously, I had experiences in a few natural language processing applications.
 For instance, I have been working on domain adaptation for machine translation as my undergraduate dissertation with Prof. [Xiaohui Ji](https://www.researchgate.net/scientific-contributions/69798625_Xiaohui_Ji). 
@@ -43,10 +43,10 @@ And I luckily interned twice at the Microsoft Research Asia in the BotSys team (
 
 ## Misc
 
-- My name is pronounced as "sǣnɕə̄ŋ".
+- My name is pronounced as "sǣnɕə̄ŋ", likes "sun sing".
 - I come from [Quanzhou](https://en.wikipedia.org/wiki/Quanzhou).
 - I started playing the violin when I was a little boy.
-- I have a [blog](https://sxing.xyz/archives/) where I write some random thoughts about research or life (some may be written in Chinese).
+<!-- - I have a [blog](https://sxing.xyz/archives/) where I write some random thoughts about research or life (some may be written in Chinese). -->
 
 ## Contact
 
