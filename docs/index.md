@@ -28,7 +28,7 @@ lang: en-US
 I'm a first-year master student in computer science at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), where I work with Prof. [Yangfeng Ji](http://yangfengji.net).
 
 My long-term research interests lie primarily in helping computers to learn natural languages like us human.
-Currently, I focus on developing intuitive learning algorithms for grounded language learning and code generation (i.e. semantic parsing). I'm also interested also interpretable language representations.
+Currently, I focus on developing intuitive learning algorithms for grounded language learning and code generation (which constitute semantic parsing).
 
 Previously, I had experiences in a few natural language processing applications.
 For instance, I have been working on domain adaptation for machine translation as my undergraduate dissertation with Prof. [Xiaohui Ji](https://www.researchgate.net/scientific-contributions/69798625_Xiaohui_Ji). 
