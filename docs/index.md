@@ -43,7 +43,7 @@ And I luckily interned twice at the Microsoft Research Asia in the BotSys team (
 
 ## Misc
 
-- My name is pronounced as "sǣnɕə̄ŋ", likes "sun sing".
+- My name is pronounced as "sǣnɕə̄ŋ", like "sun sing".
 - I come from [Quanzhou](https://en.wikipedia.org/wiki/Quanzhou).
 - I started playing the violin when I was a little boy.
 <!-- - I have a [blog](https://sxing.xyz/archives/) where I write some random thoughts about research or life (some may be written in Chinese). -->
@@ -53,6 +53,6 @@ And I luckily interned twice at the Microsoft Research Asia in the BotSys team (
 :email:
 
 - staychan [dot] cn [at] gmail [dot] com
-- stay [at] email [dot] virginia [dot] edu
+- sc3hn [at] virginia [dot] edu
 
 <a class="twitter-timeline" data-lang="en" data-width="390" data-height="600" data-theme="light" data-link-color="#e57200" href="https://twitter.com/sanxing_chen/likes?ref_src=twsrc%5Etfw">Tweets Liked by @sanxing_chen</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
