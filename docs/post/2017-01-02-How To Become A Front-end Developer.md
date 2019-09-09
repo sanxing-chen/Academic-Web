@@ -16,7 +16,7 @@ permalink: tasks-on-winter-vacationfront-end
 What's happened when we surf the Internet?
 
 *   Read the [answer](http://zhihu.com/question/22689579/answer/22318058) written by Zhang Qiuyi from [Alinode](https://alinode.aliyun.com/).
-*   [20-Things-I-Learned-About-Browsers-and-the-Web](https://sxing.xyz/wp-content/uploads/2017/01/20-Things-I-Learned-About-Browsers-and-the-Web.pdf) published by google.
+*   "20 Things I Learned About Browsers and the Web" [[en](https://dusk.geo.orst.edu/gis/Google_Book_20Things.pdf);[zh](/~sc3hn/upload/20170101/20-Things-I-Learned-About-Browsers-and-the-Web.pdf)] by Google.
 
 ## HTML/CSS
 
@@ -80,4 +80,4 @@ Examples:
 *   [Hux's blog](http://huangxuan.me/)
 *   [Byvoid's blog](https://www.byvoid.com/)
 
-The most important thing I think is to be elegant, wherever in code or design. And I recommend you to use vue.js to achieve some function.
+The most important thing I think is to be elegant, wherever in code or design. And I recommend you to use vue.js to implement some functions.
