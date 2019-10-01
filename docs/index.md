@@ -27,12 +27,16 @@ lang: en-US
 
 I'm a first-year master student in computer science at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), where I work with Prof. [Yangfeng Ji](http://yangfengji.net).
 
-My long-term research interests lie primarily in helping computers to learn natural languages like us human.
-Currently, I focus on developing intuitive learning algorithms for grounded language learning and code generation (which constitute semantic parsing).
+My long-term research interest lies primarily in helping computers to learn natural languages like humans.
+Language is the [conduit](https://en.wikipedia.org/wiki/Conduit_metaphor) for bridging different forms of knowledge.
+But, by itself, it doesn't necessarily contain sufficient information.
+That's why I'm currently focusing on grounded language learning,
+especially in finding intuitive algorithms to connect language with the world.
 
 Previously, I had experiences in a few natural language processing applications.
-For instance, I have been working on domain adaptation for machine translation as my undergraduate dissertation with Prof. [Xiaohui Ji](https://www.researchgate.net/scientific-contributions/69798625_Xiaohui_Ji). 
-And I luckily interned twice at the Microsoft Research Asia in the BotSys team (formerly belongs to BDM group, now part of the [KC](https://www.microsoft.com/en-us/research/group/knowledge-computing/) group) where I was working on [generic types entitiy recognition](https://github.com/Microsoft/Recognizers-Text) under the supervision of Dr. [Börje Karlsson](https://www.microsoft.com/en-us/research/people/borjekar/) and [Guoxin Wang](https://www.microsoft.com/en-us/research/people/guow/).
+For instance, I have been working on domain adaptation for machine translation with Prof. [Xiaohui Ji](https://www.researchgate.net/scientific-contributions/69798625_Xiaohui_Ji). 
+And I have luckily interned twice at the Microsoft Research Asia in the BotSys team (formerly belongs to BDM group, now part of the [KC](https://www.microsoft.com/en-us/research/group/knowledge-computing/) group) 
+where I was working on [generic types entitiy recognition](https://github.com/Microsoft/Recognizers-Text) under the supervision of Dr. [Börje Karlsson](https://www.microsoft.com/en-us/research/people/borjekar/) and [Guoxin Wang](https://www.microsoft.com/en-us/research/people/guow/).
 
 ## News  :tada:
 
@@ -43,7 +47,7 @@ And I luckily interned twice at the Microsoft Research Asia in the BotSys team (
 
 ## Misc
 
-- My name is pronounced as "sǣnɕə̄ŋ", like "sun sing".
+- My name is pronounced as "sǣnɕə̄ŋ".
 - I come from [Quanzhou](https://en.wikipedia.org/wiki/Quanzhou).
 - I started playing the violin when I was a little boy.
 <!-- - I have a [blog](https://sxing.xyz/archives/) where I write some random thoughts about research or life (some may be written in Chinese). -->
