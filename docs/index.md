@@ -27,7 +27,7 @@ lang: en-US
 
 I'm a first-year master student in computer science at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), where I work with Prof. [Yangfeng Ji](http://yangfengji.net) in natural language processing (NLP).
 
-My long-term research interest lies primarily in helping computers to learn natural languages ​​like in the way humans do.
+My long-term research interest lies primarily in helping computers to learn natural languages in the way humans do.
 Language is the [conduit](https://en.wikipedia.org/wiki/Conduit_metaphor) which bridges different forms of knowledge.
 But, by itself, it doesn't necessarily contain sufficient information.
 That's why I'm currently focusing on grounded language learning,
@@ -40,7 +40,8 @@ where I was working on [generic types entitiy recognition](https://github.com/Mi
 
 ## News  :tada:
 
-- **[Dec 21, 2019]** I'm actively seeking R&D internship opportunities for 2020 summer!
+- **[Jan 19, 2020]** I'll be with Microsoft Advertising and [MSR](https://www.microsoft.com/en-us/research/group/deep-learning-group/) this summer!
+- **[Dec 21, 2019]** I'm actively seeking R&D internship opportunities for summer 2020!
 - **[Dec 10, 2019]** We submitted one paper to ACL 2020!
 - **[Mar 28, 2019]** Got accepted to MSCS@[UMass](https://umass.edu)!
 - **[Feb 27, 2019]** I'm going to rejoin MSRA in April, excited to see my old friends there!
