@@ -2,8 +2,11 @@
 <div v-if="issues">
   <h1>Paper notes</h1>
   <ul>
-    <div v-for="record in issues">
-      <h3>{{record.title}} <a :href="record.url | api2www" target="_blank">🔗</a></h3>
+    <div v-for="(record, idx) in issues">
+      <h2 v-if="idx == 0 || formatDate(issues[idx-1].created_at) != formatDate(record.created_at)">
+        {{formatDate(record.created_at)}}
+      </h2>
+      <h3 class="title">{{record.title}} <a :href="record.url | api2www" target="_blank">#</a></h3>
       <a v-for="label in record.labels" :href="label.url | api2www" target="_blank">
         <span
           class="badge"
@@ -11,7 +14,7 @@
           {{label.name}}
         </span>
       </a>
-      <h5>{{record.author_text}} ({{record.time_text}})</h5>
+      <h5 class="author">{{record.author_text}} ({{record.time_text}})</h5>
       <p v-html="$options.filters.renderNote(record.body)"></p>
     </div>
   </ul>
@@ -34,15 +37,11 @@ export default {
   },
 
   watch: {
-    // currentBranch: 'fetchData'
   },
 
   filters: {
     api2www: function (v) {
       return v.replace('api.github.com/repos', 'github.com')
-    },
-    formatDate: function (v) {
-      return v.replace(/T|Z/g, ' ')
     },
     renderNote: function (v) {
       return md.render(v)
@@ -50,6 +49,9 @@ export default {
   },
 
   methods: {
+    formatDate: function (v) {
+      return v.slice(0, 10)
+    },
     fetchData: function () {
       var xhr = new XMLHttpRequest()
       var self = this
@@ -63,6 +65,7 @@ export default {
           record.time_text = record.body.slice(dateStart + 6, noteStart).trim()
           record.body = record.body.slice(noteStart + 7)
         }
+        self.issues[2].created_at = '2020-01-26T06:18:13Z'
       }
       xhr.send()
     }
@@ -72,8 +75,8 @@ export default {
 
 <style>
 
-.author, .date {
-  font-weight: bold;
+.author {
+  color: #9eb3c9;
 }
 
 .badge {
@@ -88,4 +91,11 @@ export default {
   color: black;
   vertical-align: 'middle';
 }
+
+.author, .title, .badge {
+  line-height: 1.2;
+  margin-block-start: 0.66em;
+  margin-block-end: 0em;
+}
+
 </style>
