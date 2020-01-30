@@ -36,7 +36,7 @@ especially in finding intuitive algorithms to connect languages with various wor
 I was lucky to be exposed to a few NLP research studies early at college.
 For instance, I have been working on domain adaptation for machine translation with Prof. [Xiaohui Ji](https://www.researchgate.net/scientific-contributions/69798625_Xiaohui_Ji). 
 And I spent nearly one year to intern twice at the Microsoft Research Asia with the BotSys team (part of the BDM group or the [KC](https://www.microsoft.com/en-us/research/group/knowledge-computing/) group) 
-where I was working on [generic types entitiy recognition](https://github.com/Microsoft/Recognizers-Text) under the supervision of Dr. [Börje Karlsson](https://www.microsoft.com/en-us/research/people/borjekar/) and [Guoxin Wang](https://www.microsoft.com/en-us/research/people/guow/).
+where I was working on [generic types entity recognition](https://github.com/Microsoft/Recognizers-Text) under the supervision of Dr. [Börje Karlsson](https://www.microsoft.com/en-us/research/people/borjekar/) and [Guoxin Wang](https://www.microsoft.com/en-us/research/people/guow/).
 
 ## News  :tada:
 
