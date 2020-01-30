@@ -1,24 +1,25 @@
 <template>
 <div v-if="issues">
-  <h1>Latest paper notes</h1>
+  <h1>Paper notes</h1>
   <ul>
     <div v-for="record in issues">
       <h3>{{record.title}} <a :href="record.url | api2www" target="_blank">🔗</a></h3>
       <a v-for="label in record.labels" :href="label.url | api2www" target="_blank">
-        <span 
+        <span
           class="badge"
           :style="{'background-color': '#'+label.color}">
           {{label.name}}
         </span>
       </a>
-      <p v-html="md.render(record.body)"></p>
+      <h5>{{record.author_text}} ({{record.time_text}})</h5>
+      <p v-html="$options.filters.renderNote(record.body)"></p>
     </div>
   </ul>
 </div>
 </template>
 
 <script>
-var apiURL = 'https://api.github.com/repos/STayinloves/paper-note/issues'
+var apiURL = 'https://api.github.com/repos/STayinloves/paper-note/issues?creator=STayinloves'
 var md = require('markdown-it')({breaks: true});
 export default {
   data() {
@@ -42,6 +43,9 @@ export default {
     },
     formatDate: function (v) {
       return v.replace(/T|Z/g, ' ')
+    },
+    renderNote: function (v) {
+      return md.render(v)
     }
   },
 
@@ -52,6 +56,14 @@ export default {
       xhr.open('GET', apiURL)
       xhr.onload = function () {
         self.issues = JSON.parse(xhr.responseText)
+        for (let record of self.issues) {
+          console.log(record)
+          let dateStart = record.body.indexOf('Time:')
+          let noteStart = record.body.indexOf('Note:')
+          record.author_text = record.body.slice(9, dateStart).trim()
+          record.time_text = record.body.slice(dateStart + 6, noteStart).trim()
+          record.body = record.body.slice(noteStart + 7)
+        }
       }
       xhr.send()
     }
