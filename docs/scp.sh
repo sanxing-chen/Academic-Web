@@ -1,4 +1,5 @@
 #!/bin/bash
+npx vuepress build
 cd .vuepress/dist
 tar -zcvf /tmp/dist.tar.gz ./*
 scp /tmp/dist.tar.gz sc3hn@portal01.cs.virginia.edu:/tmp/ 

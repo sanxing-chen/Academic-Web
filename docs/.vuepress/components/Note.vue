@@ -57,7 +57,6 @@ export default {
       xhr.onload = function () {
         self.issues = JSON.parse(xhr.responseText)
         for (let record of self.issues) {
-          console.log(record)
           let dateStart = record.body.indexOf('Time:')
           let noteStart = record.body.indexOf('Note:')
           record.author_text = record.body.slice(9, dateStart).trim()
