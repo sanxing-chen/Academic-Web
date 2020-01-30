@@ -48,6 +48,10 @@ where I was working on [generic types entitiy recognition](https://github.com/Mi
 - **[Feb 21, 2019]** Got accepted to MSCS@[UVa](http://virginia.edu)!
 - **[Dec 16, 2018]** All MS/Ph.D. applications sent out!
 
+## Service
+
+- Program committee member: COLING'2020
+
 ## Misc
 
 - My name is pronounced as "sǣnɕə̄ŋ".
