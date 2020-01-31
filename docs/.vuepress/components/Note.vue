@@ -65,7 +65,6 @@ export default {
           record.time_text = record.body.slice(dateStart + 6, noteStart).trim()
           record.body = record.body.slice(noteStart + 7)
         }
-        self.issues[2].created_at = '2020-01-26T06:18:13Z'
       }
       xhr.send()
     }
