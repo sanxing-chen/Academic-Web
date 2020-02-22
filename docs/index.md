@@ -43,10 +43,10 @@ where I was working on [generic types entity recognition](https://github.com/Mic
 - **[Jan 19, 2020]** I'll be with Microsoft Advertising and [MSR](https://www.microsoft.com/en-us/research/group/deep-learning-group/) this summer!
 - **[Dec 21, 2019]** I'm actively seeking R&D internship opportunities for summer 2020!
 - **[Dec 10, 2019]** We submitted one paper to ACL 2020!
-- **[Mar 28, 2019]** Got accepted to MSCS@[UMass](https://umass.edu)!
+<!-- - **[Mar 28, 2019]** Got accepted to MSCS@[UMass](https://umass.edu)!
 - **[Feb 27, 2019]** I'm going to rejoin MSRA in April, excited to see my old friends there!
 - **[Feb 21, 2019]** Got accepted to MSCS@[UVa](http://virginia.edu)!
-- **[Dec 16, 2018]** All MS/Ph.D. applications sent out!
+- **[Dec 16, 2018]** All MS/Ph.D. applications sent out! -->
 
 ## Service
 
