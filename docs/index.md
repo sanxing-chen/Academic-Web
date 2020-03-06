@@ -34,8 +34,8 @@ That's why I'm currently focusing on grounded language learning,
 especially in finding intuitive algorithms to connect languages with various worlds.
 
 I was lucky to be exposed to a few NLP research studies early at college.
-For instance, I have been working on domain adaptation for machine translation with Prof. [Xiaohui Ji](https://www.researchgate.net/scientific-contributions/69798625_Xiaohui_Ji). 
-And I spent nearly one year to intern twice at the Microsoft Research Asia with the BotSys team (part of the BDM group or the [KC](https://www.microsoft.com/en-us/research/group/knowledge-computing/) group) 
+For instance, I worked on domain adaptation for machine translation with Prof. [Xiaohui Ji](https://www.researchgate.net/scientific-contributions/69798625_Xiaohui_Ji). 
+And I spent nearly one year interned at the Microsoft Research Asia with the BotSys team (part of the BDM group or the [KC](https://www.microsoft.com/en-us/research/group/knowledge-computing/) group) 
 where I was working on [generic types entity recognition](https://github.com/Microsoft/Recognizers-Text) under the supervision of Dr. [Börje Karlsson](https://www.microsoft.com/en-us/research/people/borjekar/) and [Guoxin Wang](https://www.microsoft.com/en-us/research/people/guow/).
 
 ## News  :tada:
@@ -43,6 +43,7 @@ where I was working on [generic types entity recognition](https://github.com/Mic
 - **[Jan 19, 2020]** I'll be with Microsoft Advertising and [MSR](https://www.microsoft.com/en-us/research/group/deep-learning-group/) this summer!
 - **[Dec 21, 2019]** I'm actively seeking R&D internship opportunities for summer 2020!
 - **[Dec 10, 2019]** We submitted one paper to ACL 2020!
+
 <!-- - **[Mar 28, 2019]** Got accepted to MSCS@[UMass](https://umass.edu)!
 - **[Feb 27, 2019]** I'm going to rejoin MSRA in April, excited to see my old friends there!
 - **[Feb 21, 2019]** Got accepted to MSCS@[UVa](http://virginia.edu)!
