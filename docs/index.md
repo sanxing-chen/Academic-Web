@@ -29,13 +29,13 @@ I'm a first-year master student in computer science at the [University of Virgin
 
 My long-term research interest lies primarily in helping computers to learn natural languages in the way humans do.
 Language is the [conduit](https://en.wikipedia.org/wiki/Conduit_metaphor) which bridges different forms of knowledge.
-But, by itself, it doesn't necessarily contain sufficient information.
+So, by itself, it doesn't necessarily contain all the information.
 That's why I'm currently focusing on grounded language learning,
 especially in finding intuitive algorithms to connect languages with various worlds.
 
 I was lucky to be exposed to a few NLP research studies early at college.
 For instance, I worked on domain adaptation for machine translation with Prof. [Xiaohui Ji](https://www.researchgate.net/scientific-contributions/69798625_Xiaohui_Ji). 
-And I spent nearly one year interned at the Microsoft Research Asia with the BotSys team (part of the BDM group or the [KC](https://www.microsoft.com/en-us/research/group/knowledge-computing/) group) 
+And I spent nearly one year interned at the Microsoft Research Asia with the BotSys team (part of the BDM/[KC](https://www.microsoft.com/en-us/research/group/knowledge-computing/) group) 
 where I was working on [generic types entity recognition](https://github.com/Microsoft/Recognizers-Text) under the supervision of Dr. [Börje Karlsson](https://www.microsoft.com/en-us/research/people/borjekar/) and [Guoxin Wang](https://www.microsoft.com/en-us/research/people/guow/).
 
 ## News  :tada:
