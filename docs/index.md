@@ -4,20 +4,15 @@ lang: en-US
 ---
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
 
-# <div><p style="font-variant: small-caps; display: inline;">Sanxing Chen</p> <p style="font-family:'Noto Serif SC', serif; display: inline;">陈三星</p></div>
+<!-- # <div><p style="font-variant: small-caps; display: inline;">Sanxing Chen</p></div> -->
+<h3></h3>
+<div><h1 style='background: unset; color: #e57200;'>Sanxing</h1> <h1>Chen</h1></div>
+<!-- <p style="font-family:'Noto Serif SC', serif; display: inline;">陈三星</p> -->
 
 <style type="text/css"> 
-@media (min-width: 767px) {
-    #myimg {
-        width: 260px;
-    }
-}
 
-@media (max-width: 767px) {
-    #myimg {
-        width: 128px;
-    }
-}
+
+
 </style>
 
 
@@ -40,11 +35,13 @@ where I was working on [generic types entity recognition](https://github.com/Mic
 
 ## News  :tada:
 
-- **[Jan 19, 2020]** I'll be with Microsoft Advertising and [MSR](https://www.microsoft.com/en-us/research/group/deep-learning-group/) this summer!
+- **[Apr 24, 2020]** I'll be attending [ICLR 2020](https://iclr.cc) virtually!
+- **[Jan 19, 2020]** I'll be with Microsoft Ads and [MSR](https://www.microsoft.com/en-us/research/group/deep-learning-group/) this summer!
+
+<!-- 
 - **[Dec 21, 2019]** I'm actively seeking R&D internship opportunities for summer 2020!
 - **[Dec 10, 2019]** We submitted one paper to ACL 2020!
-
-<!-- - **[Mar 28, 2019]** Got accepted to MSCS@[UMass](https://umass.edu)!
+- **[Mar 28, 2019]** Got accepted to MSCS@[UMass](https://umass.edu)!
 - **[Feb 27, 2019]** I'm going to rejoin MSRA in April, excited to see my old friends there!
 - **[Feb 21, 2019]** Got accepted to MSCS@[UVa](http://virginia.edu)!
 - **[Dec 16, 2018]** All MS/Ph.D. applications sent out! -->

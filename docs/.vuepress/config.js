@@ -4,7 +4,9 @@ let markdownFiles = glob.sync('post/*.md').map(f => '/' + f);
 module.exports = {
     base: '/~sc3hn/',
     head: [
-      ['link', { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' }]
+      ['link', { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      ['script', { src: 'https://use.typekit.net/tgy5tlj.js' }],
+      ['script', {}, 'try{Typekit.load();}catch(e){console.log(e)}'],
     ],
     themeConfig: {
       search: false,
