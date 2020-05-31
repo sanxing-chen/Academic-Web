@@ -33,7 +33,9 @@
 .company
   font-weight: 600
 
-// .title
+.title
+  margin-block-start: 0
+  margin-block-end: 0.2em
 
 .date
   float: right
