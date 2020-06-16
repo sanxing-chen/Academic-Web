@@ -33,9 +33,10 @@ For instance, I worked on domain adaptation for machine translation with Prof. [
 
 ## News  :tada:
 
-- **[Apr 24, 2020]** I'll be attending [ICLR 2020](https://iclr.cc) virtually!
+- **[Jun 12, 2020]** I'll be attending [AKBC 2020](https://www.akbc.ws/2020/) and [ACL 2020](https://acl2020.org/) virtually!
 
 <!-- 
+- **[Apr 24, 2020]** I'll be attending [ICLR 2020](https://iclr.cc) virtually!
 - **[Jan 19, 2020]** I'll be with Microsoft Ads and [MSR](https://www.microsoft.com/en-us/research/group/deep-learning-group/) this summer!
 - **[Dec 21, 2019]** I'm actively seeking R&D internship opportunities for summer 2020!
 - **[Dec 10, 2019]** We submitted one paper to ACL 2020!

@@ -22,7 +22,7 @@
 </template>
 
 <script>
-var apiURL = 'https://api.github.com/repos/STayinloves/paper-note/issues?creator=STayinloves'
+var apiURL = 'https://api.github.com/repos/sanxingc/paper-note/issues?creator=sanxingc'
 var md = require('markdown-it')({breaks: true});
 export default {
   data() {
