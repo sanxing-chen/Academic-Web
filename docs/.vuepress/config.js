@@ -14,7 +14,7 @@ module.exports = {
         { text: 'Home', link: '/' },
         { text: 'Blog', link: '/post/index/' },
         { text: 'Note', link: '/note/index/' },
-        { text: 'GitHub', link: 'https://github.com/sanxingc' },
+        { text: 'GitHub', link: 'https://github.com/sanxing-chen' },
       ],
       sidebar: {
         '/post/': markdownFiles
