@@ -28,12 +28,14 @@ So, by itself, it doesn't necessarily contain all the information.
 That's why I'm currently focusing on grounded language learning,
 especially in finding intuitive algorithms to connect languages with various worlds.
 
+**I'm actively looking for PhD and research internship opportunities starting Spring 2021.**
+
 <!-- I was lucky to be exposed to a few NLP research studies early at college.
 For instance, I worked on domain adaptation for machine translation with Prof. [Xiaohui Ji](https://www.researchgate.net/scientific-contributions/69798625_Xiaohui_Ji).  -->
 
 ## News  :tada:
 
-- **[Jun 12, 2020]** I'll be attending [AKBC 2020](https://www.akbc.ws/2020/) and [ACL 2020](https://acl2020.org/) virtually!
+- **[Jun 12, 2020]** I'll be attending [AKBC 2020](https://www.akbc.ws/2020/), [ACL 2020](https://acl2020.org/) and [ICML 2020](https://icml.cc/Conferences/2020) virtually!
 
 <!-- 
 - **[Apr 24, 2020]** I'll be attending [ICLR 2020](https://iclr.cc) virtually!
