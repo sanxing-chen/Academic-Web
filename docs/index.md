@@ -20,7 +20,7 @@ lang: en-US
 
 <img src="./img/uva.jpg" alt="img" id="myimg" style="float:right;border-radius: 0 12% 0 0;transition: width 0.5s;opacity: 0.8;">
 
-I'm a first-year master student in computer science at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), where I work with Prof. [Yangfeng Ji](http://yangfengji.net) in natural language processing (NLP).
+I'm a second-year master student in computer science at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), where I work with Prof. [Yangfeng Ji](http://yangfengji.net) in the [NLP group](https://uvanlp.org/).
 
 My long-term research interest lies primarily in helping computers to learn natural languages in the way humans do.
 Language is the [conduit](https://en.wikipedia.org/wiki/Conduit_metaphor) which bridges different forms of knowledge.
@@ -54,26 +54,28 @@ For instance, I worked on domain adaptation for machine translation with Prof. [
 <template #title>Research Intern</template>
 <template #location>Home office, United States</template>
 <template #date>May 2020 - Now</template>
-<template #work>Relational learning and NLP</template>
+<template #work>Relational learning and NLP with Dr. <a href="https://sites.google.com/view/buptxiaodong/home">Xiaodong Liu</a> and Dr. Jian Jiao</template>
 </experience>
 <experience>
 <template #company>Microsoft Research Asia</template>
 <template #title>Research Intern</template>
 <template #location>Beijing, China</template>
 <template #date>Mar 2019 - Jun 2019</template>
-<template #work>Time expression recognition</template>
+<template #work>Time expression recognition with Guoxin Wang</template>
 </experience>
 <experience>
 <template #company>Microsoft Research Asia</template>
 <template #title>Research Intern</template>
 <template #location>Beijing, China</template>
 <template #date>Feb 2018 - Sep 2018</template>
-<template #work><a href="https://github.com/Microsoft/Recognizers-Text">Generic types entity recognition</a> with Guoxin Wang and Dr. Börje Karlsson </template>
+<template #work><a href="https://github.com/Microsoft/Recognizers-Text">Generic types entity recognition</a> with Dr. Börje Karlsson</template>
 </experience>
 
 ## Service
 
-- Program committee member: COLING'2020
+- Program committee member (reviewer): COLING'2020
+- Secondary reviewer: TPAMI'2020
+- Volunteer: ACL'2020
 
 ## Misc
 
