@@ -12,16 +12,16 @@ Here're some resources that once impressed me on the way to computer science res
 
 ## My humble comment
 
-[[19](#footnote19)] is a collection of experts' answer to four important questions in NLP research, i.e., "*What do you think are the three biggest open problems in NLP at the moment?*", "*What would you say is the most influential work in NLP in the last decade, if you had to pick just one?*", "*What, if anything, has led the field in the wrong direction?*" and "*What advice would you give a postgraduate student in NLP starting their project now?*" I can also place my humble selection here as for the first and last question.
+[[19](#footnote19)] is a collection of experts' answers to four important questions in NLP research, namely "*What do you think are the three biggest open problems in NLP at the moment?*", "*What would you say is the most influential work in NLP in the last decade, if you had to pick just one?*", "*What, if anything, has led the field in the wrong direction?*" and "*What advice would you give a postgraduate student in NLP starting their project now?*" I can also place my humble selection here as for the first and last question.
 
 I think the three biggest open problems in NLP at the moment are:
 - Grounded language learning
 - Language reasoning
 - Learning in low-resource settings (unsupervised, transfer, multitask, meta-learning, prior knowledge, etc)
 
-And I'm going further in the third question now.
+I'm digging into the first question currently.
 
-While for the suggestion to postgraduate (including me), I want to adopt these four:
+And I want to adopt these fourfor the suggestions to postgraduates (including me):
 - Read a lot to gain a strong background
 - Be ambitious and novel for the long-term result
 - Publish progress, even in a workshop for the short-term result
@@ -31,17 +31,17 @@ While for the suggestion to postgraduate (including me), I want to adopt these f
 
 [[20](#footnote20)] includes a series of articles subject to the aptitude of doing research written by Prof. Song-Chun Zhu. Here I put my quotation and inspiration.
 
-There is undeniable a wide spread of utilitarianism in Chinese student and their parent, and it has become even stronger in the recent year since China has been through an economic revival. So it's more difficult and important for our Chinese student to overcome this obstacle. The only way is to make it clear what you want and who are you want to be. Some parent might explain that they just want their children to be happy and enjoy life, but as the saying goes, the tree wants to be calm and the wind never stops. One needs to confront his fate.
+There is undeniable a wide spread of utilitarianism among Chinese students and their parents, and it has become even stronger in the recent year since China has been through an economic revival. So it's more difficult and important for our Chinese students to overcome this obstacle. The only way out is to make it clear what you want and who you want to be. Some parents might explain that they just want their children to be happy and enjoy life, but as the saying goes, "the tree desires stillness but the wind will not cease". One needs to confront their fate.
 
-Einstein once addressed a speech for Max Planck's sixtieth birthday<sup>[21](#footnote21)</sup> in which he conveyed that there are three various motives leads people thither and dwell in the temple of science: some take to science out of a joyful sense of superior intellectual power; some others come for purely utilitarian purposes. Although they are all responsible for the buildings of the temple of science, if there are only these two kinds of people, the temple would never have come to be, any more than a forest can grow which consists of nothing but creepers. Besides, there is the third kind of odd people who have a finely tempered nature longs to escape from the personal life into the world of objective perception and thought. Max Planck absolutely seat in the third group, so as many great scientists including Einstein himself. Whether the other people can become engineers, officers, tradesmen, or scientists depends on circumstances, but for the third kind of people, they mean to be scientists.
+Einstein once addressed a speech in Max Planck's sixtieth birthday<sup>[21](#footnote21)</sup> in which he conveyed that there are three various motives leads people thither and dwell in the temple of science: some take to science out of a joyful sense of superior intellectual power; some others come for purely utilitarian purposes. Although they all contribute to the buildings of the temple of science, if there are only these two kinds of people, the temple would never have come to be, any more than a forest can grow which consists of nothing but creepers. Besides, there is the third kind of odd people who have a finely tempered nature longs to escape from the personal life into the world of objective perception and thought. Max Planck absolutely seat in the third group, so as many great scientists including Einstein himself. Whether the other people can become engineers, officers, tradesmen, or scientists depends on circumstances, but for the third kind of people, they mean to be scientists.
 
-Zhu gives two analogies about two traps a researcher can step into. One is named **street lamp of research**. This story is described in a book written by Michael Arbib:
+Zhu gives two analogies about two traps researchers frequently step into. One is named **street lamp of research**. This story is described in a book written by Michael Arbib:
 
 > It's a dark night, you see a man looking for something right under the street lamp when you walk down the street. Then you ask him: "Are you certain about your key is lost here?" "No", he replies. And you go on asking: "So why are you keep looking the key here?" "I don't know, cause here is the only bright place, where else can I find my key?"
 
 It sounds ridiculous, but it's mostly the case we are facing today.
 
-The second analogy called **double stampede event**. It comes with a story Zhu personally experienced when he was a child. The main point is the unconscious crazy trend of a research hotspot can tear you apart.
+The second analogy called **double stampede event**. It comes with a story Zhu personally experienced when he was a child. The main point is an unconscious crazy research trend can tear you apart.
 
 ----------
 
@@ -53,7 +53,12 @@ Quoted from David Blackwell: "I've worked in so many areas – I'm sort of a dil
 
 ----------
 
-Quoted from [12](#footnote12)"You can’t expect to win in the long run by somehow gaming the system or putting up false appearances."
+Quoted from [[12](#footnote12)] "You can’t expect to win in the long run by somehow gaming the system or putting up false appearances."
+
+----------
+
+I found Sam Altman's advice [[25](#footnote25)] on entrepreneurship also apply to CS research.
+
 
 ## Reference
 
@@ -108,3 +113,5 @@ by Noah Smith @ UW](https://homes.cs.washington.edu/~nasmith/undergrads.html)
 [<a name="footnote23">23</a>] [NLP Highlights(85) - Stress in Research, with Charles Sutton](https://soundcloud.com/nlp-highlights/85-stress-in-research-with-charles-sutton)
 
 [<a name="footnote24">24</a>] [Interview with David Blackwell - Mathematical People](https://books.google.co.jp/books?id=1eHqBgAAQBAJ&pg=PA20&lpg=PA20&redir_esc=y#v=onepage&q&f=false)
+
+[<a name="footnote25">25</a>] [How To Be Successful - Sam Altman](http://blog.samaltman.com/how-to-be-successful)
