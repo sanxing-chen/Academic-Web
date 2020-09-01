@@ -26,7 +26,7 @@ My long-term research interest lies primarily in helping computers to learn natu
 Language is the [conduit](https://en.wikipedia.org/wiki/Conduit_metaphor) which bridges different forms of knowledge.
 So, by itself, it doesn't necessarily contain all the information.
 That's why I'm currently focusing on grounded language learning,
-especially in finding intuitive algorithms to connect languages with various worlds.
+especially in finding intuitive algorithms to perform relational learning on graphs and texts.
 
 **I'm actively looking for PhD and research internship opportunities starting Spring 2021.**
 
@@ -53,7 +53,7 @@ For instance, I worked on domain adaptation for machine translation with Prof. [
 <template #company>Bing Ads & Microsoft Research</template>
 <template #title>Research Intern</template>
 <template #location>Home office, United States</template>
-<template #date>May 2020 - Now</template>
+<template #date>May 2020 - Aug 2020</template>
 <template #work>Relational learning and NLP with Dr. <a href="https://sites.google.com/view/buptxiaodong/home">Xiaodong Liu</a> and Dr. Jian Jiao</template>
 </experience>
 <experience>
@@ -61,15 +61,42 @@ For instance, I worked on domain adaptation for machine translation with Prof. [
 <template #title>Research Intern</template>
 <template #location>Beijing, China</template>
 <template #date>Mar 2019 - Jun 2019</template>
-<template #work>Time expression recognition with Guoxin Wang</template>
+<template #work><a href="bert-time.pdf" target="_blank">Time expression recognition</a> with <a href="https://www.microsoft.com/en-us/research/people/guow/" target="_blank">Guoxin Wang</a> and Dr. <a href="https://www.microsoft.com/en-us/research/people/borjekar/" target="_blank">Börje Karlsson</a></template>
 </experience>
 <experience>
 <template #company>Microsoft Research Asia</template>
 <template #title>Research Intern</template>
 <template #location>Beijing, China</template>
 <template #date>Feb 2018 - Sep 2018</template>
-<template #work><a href="https://github.com/Microsoft/Recognizers-Text">Generic types entity recognition</a> with Dr. Börje Karlsson</template>
+<template #work><a href="https://github.com/Microsoft/Recognizers-Text" target="_blank">Generic types entity recognition</a> with Dr. <a href="https://www.microsoft.com/en-us/research/people/borjekar/" target="_blank">Börje Karlsson</a></template>
 </experience>
+
+## Publications
+
+<paper arxiv="https://arxiv.org/abs/2008.12813">
+<template #title>HittER: Hierarchical Transformers for Knowledge Graph Embeddings</template>
+<template #authors><strong>Sanxing Chen</strong>, Xiaodong Liu, Jianfeng Gao, Jian Jiao, Ruofei Zhang, Yangfeng Ji</template>
+<template #venue>Pre-print</template>
+<template #abs>
+
+::: tip Abstract
+This paper examines the challenging problem of learning representations of entities and relations in a complex multi-relational knowledge graph. We propose **HittER**, a **Hi**erarchical **T**ransformer model **t**o jointly learn **E**ntity-relation composition and **R**elational contextualization based on a source entity’s neighborhood. Our proposed model consists of two different Transformer blocks: the bottom block extracts features of each entity-relation pair in the local neighborhood of the source entity and the top block aggregates the relational information from the outputs of the bottom block. We further design a masked entity prediction task to balance information from the relational context and the source entity itself. Evaluated on the task of link prediction, our approach achieves new state-of-the-art results on two standard benchmark datasets FB15K-237 and WN18RR.
+:::
+
+</template>
+<template #bib>
+
+``` tex
+@article{chen2020hitter,
+    title={HittER: Hierarchical Transformers for Knowledge Graph Embeddings},
+    author={Sanxing Chen and Xiaodong Liu and Jianfeng Gao and Jian Jiao and Ruofei Zhang and Yangfeng Ji},
+    journal={arXiv preprint arXiv:2008.12813},
+    year={2020}
+}
+```
+
+</template>
+</paper>
 
 ## Service
 

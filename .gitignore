@@ -1,6 +1,8 @@
 .vscode
 docs/.vuepress/dist
 docs/node_modules
+docs/post
+docs/.vuepress/public
 .DS_Store
 *.log
 Thumbs.db
