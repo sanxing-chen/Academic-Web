@@ -14,12 +14,16 @@
     <a v-for="item in meta" v-if="item.url" :href="item.url" target="_blank">
       <span class="badge" :style="{'background-color': item.color}">{{item.name}}</span>
     </a>
-    <div v-if="showAbs">
-      <slot name="abs"></slot>
-    </div>
-    <div v-if="showBib">
-      <slot name="bib"></slot>
-    </div>
+    <transition name="fadeHeight" mode="in-out">
+      <div v-if="showAbs">
+        <slot name="abs"></slot>
+      </div>
+    </transition>
+    <transition name="fadeHeight" mode="out-in">
+      <div v-if="showBib">
+        <slot name="bib"></slot>
+      </div>
+    </transition>
   </div>
 </template>
 <script>
@@ -58,7 +62,7 @@ export default {
   font-style: italic
 
 .badge
-  cursor pointer
+  cursor: pointer
   display: inline-block
   font-size: 14px
   font-weight: 600
@@ -72,4 +76,12 @@ export default {
   line-height: 1.2
   margin-block-start: 0.66em
   margin-block-end: 0em
+
+.fadeHeight-enter-active, .fadeHeight-leave-active
+  transition: all 0.3s ease
+  max-height: 600px
+
+.fadeHeight-enter, .fadeHeight-leave-to
+  opacity: 0
+  max-height: 0px
 </style>

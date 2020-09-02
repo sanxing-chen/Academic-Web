@@ -19,7 +19,8 @@ module.exports = {
       sidebar: {
         '/post/': markdownFiles
       },
-      lastUpdated: 'Last Updated'
+      lastUpdated: 'Last Updated',
+      smoothScroll: true
     },
     plugins: [
       [ 
