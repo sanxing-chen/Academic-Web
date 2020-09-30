@@ -74,7 +74,7 @@ For instance, I worked on domain adaptation for machine translation with Prof. [
 ## Publications
 
 <paper arxiv="https://arxiv.org/abs/2008.12813">
-<template #title>HittER: Hierarchical Transformers for Knowledge Graph Embeddings</template>
+<template #title>⚾️ HittER: Hierarchical Transformers for Knowledge Graph Embeddings</template>
 <template #authors><strong>Sanxing Chen</strong>, Xiaodong Liu, Jianfeng Gao, Jian Jiao, Ruofei Zhang, Yangfeng Ji</template>
 <template #venue>Pre-print</template>
 <template #abs>
@@ -91,6 +91,30 @@ This paper examines the challenging problem of learning representations of entit
     title={HittER: Hierarchical Transformers for Knowledge Graph Embeddings},
     author={Sanxing Chen and Xiaodong Liu and Jianfeng Gao and Jian Jiao and Ruofei Zhang and Yangfeng Ji},
     journal={arXiv preprint arXiv:2008.12813},
+    year={2020}
+}
+```
+
+</template>
+</paper>
+<paper>
+<template #title>A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-SQL Parsing</template>
+<template #authors><strong>Sanxing Chen</strong>, Aidan San, Xiaodong Liu, Yangfeng Ji</template>
+<template #venue>To appear at COLING'2020</template>
+<template #abs>
+
+::: tip Abstract
+In Text-to-SQL semantic parsing, selecting the correct entities (tables and columns) to output is both crucial and challenging; the parser is required to connect the natural language (NL) question and the current SQL prediction with the structured world, *i.e.*, the database. We formulate two linking processes to address this challenge: *schema linking* which links explicit NL mentions to the database and *structural linking* which links the entities in the output SQL with their structural relationships in the database schema. Intuitively, the effects of these two linking processes change based on the entity being generated, thus we propose to dynamically choose between them using a gating mechanism. Integrating the proposed method with two graph neural network based semantic parsers together with BERT representations demonstrates substantial gains in parsing accuracy on the challenging Spider dataset. Analyses show that our method helps to enhance the structure of the model output when generating complicated SQL queries and offers explainable predictions.
+:::
+
+</template>
+<template #bib>
+
+``` tex
+@inproceedings{chen2020tale,
+    title={A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-SQL Parsing},
+    author={Sanxing Chen and Aidan San and Xiaodong Liu and Yangfeng Ji},
+    booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
     year={2020}
 }
 ```
