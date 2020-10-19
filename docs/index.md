@@ -28,7 +28,7 @@ So, by itself, it doesn't necessarily contain all the information.
 That's why I'm currently focusing on grounded language learning,
 especially in finding intuitive algorithms to perform relational learning on graphs and texts.
 
-**I'm actively looking for PhD and research internship opportunities starting Spring 2021.**
+**I'm actively looking for Ph.D. and research internship opportunities starting Spring 2021. <a href="CV.pdf" target="_blank">[CV]</a>**
 
 <!-- I was lucky to be exposed to a few NLP research studies early at college.
 For instance, I worked on domain adaptation for machine translation with Prof. [Xiaohui Ji](https://www.researchgate.net/scientific-contributions/69798625_Xiaohui_Ji).  -->
@@ -97,7 +97,7 @@ This paper examines the challenging problem of learning representations of entit
 
 </template>
 </paper>
-<paper>
+<paper arxiv="https://arxiv.org/abs/2009.14809" code="https://github.com/sanxing-chen/linking-tale">
 <template #title>A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-SQL Parsing</template>
 <template #authors><strong>Sanxing Chen</strong>, Aidan San, Xiaodong Liu, Yangfeng Ji</template>
 <template #venue>To appear at COLING'2020</template>
