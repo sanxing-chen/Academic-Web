@@ -34,7 +34,7 @@ export default {
       showAbs: false,
       showBib: false,
       meta: [
-        { name: "Link", color: "", url: this.paper },
+        { name: "Link", color: "#e7181f", url: this.paper },
         { name: "arXiv", color: "#ae1917", url: this.arxiv },
         { name: "Video", color: "", url: this.video },
         { name: "Slides", color: "", url: this.slides },

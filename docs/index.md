@@ -22,7 +22,7 @@ lang: en-US
 
 I'm a second-year master student in computer science at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), where I work with Prof. [Yangfeng Ji](http://yangfengji.net) in the [NLP group](https://uvanlp.org/).
 
-My long-term research interest lies primarily in helping computers to learn natural languages in the way humans do.
+I am interested in helping computers to learn natural languages in the way humans do.
 Language is the [conduit](https://en.wikipedia.org/wiki/Conduit_metaphor) which bridges different forms of knowledge.
 So, by itself, it doesn't necessarily contain all the information.
 That's why I'm currently focusing on grounded language learning,
@@ -35,6 +35,7 @@ For instance, I worked on domain adaptation for machine translation with Prof. [
 
 ## News  :tada:
 
+- **[Nov 01, 2020]** I'll be volunteering at [EMNLP 2020](https://2020.emnlp.org/), and presenting at [COLING 2020](https://coling2020.org) virtually!
 - **[Jun 12, 2020]** I'll be attending [AKBC 2020](https://www.akbc.ws/2020/), [ACL 2020](https://acl2020.org/) and [ICML 2020](https://icml.cc/Conferences/2020) virtually!
 
 <!-- 
@@ -54,24 +55,58 @@ For instance, I worked on domain adaptation for machine translation with Prof. [
 <template #title>Research Intern</template>
 <template #location>Home office, United States</template>
 <template #date>May 2020 - Aug 2020</template>
-<template #work>Relational learning and NLP with Dr. <a href="https://sites.google.com/view/buptxiaodong/home">Xiaodong Liu</a> and Dr. Jian Jiao</template>
+<template #work>Relational learning and NLP with <a href="https://sites.google.com/view/buptxiaodong/home">Xiaodong Liu</a>, <a href="https://www.linkedin.com/in/jian-jiao-82897810">Jian Jiao</a>, <a href="https://www.linkedin.com/in/ruofei">Bruce Zhang</a>, and <a href="https://sites.google.com/view/buptxiaodong/home">Jianfeng Gao</a></template>
 </experience>
 <experience>
 <template #company>Microsoft Research Asia</template>
 <template #title>Research Intern</template>
 <template #location>Beijing, China</template>
 <template #date>Mar 2019 - Jun 2019</template>
-<template #work><a href="bert-time.pdf" target="_blank">Time expression recognition</a> with <a href="https://www.microsoft.com/en-us/research/people/guow/" target="_blank">Guoxin Wang</a> and Dr. <a href="https://www.microsoft.com/en-us/research/people/borjekar/" target="_blank">Börje Karlsson</a></template>
+<template #work><a href="bert-time.pdf" target="_blank">Time expression recognition</a> with <a href="https://www.microsoft.com/en-us/research/people/guow/" target="_blank">Guoxin Wang</a> and <a href="https://www.microsoft.com/en-us/research/people/borjekar/" target="_blank">Börje Karlsson</a></template>
 </experience>
 <experience>
 <template #company>Microsoft Research Asia</template>
 <template #title>Research Intern</template>
 <template #location>Beijing, China</template>
 <template #date>Feb 2018 - Sep 2018</template>
-<template #work><a href="https://github.com/Microsoft/Recognizers-Text" target="_blank">Generic types entity recognition</a> with Dr. <a href="https://www.microsoft.com/en-us/research/people/borjekar/" target="_blank">Börje Karlsson</a></template>
+<template #work><a href="https://github.com/Microsoft/Recognizers-Text" target="_blank">Generic types entity recognition</a> with <a href="https://www.microsoft.com/en-us/research/people/borjekar/" target="_blank">Börje Karlsson</a></template>
 </experience>
 
 ## Publications
+
+<paper paper="https://doi.org/10.18130/v3-mhyd-et41">
+<template #title>Contextualizing Language Understanding with Graph-based Knowledge Representations</template>
+<template #authors><strong>Sanxing Chen</strong></template>
+<template #venue>Master's thesis, The University of Virginia, 2020</template>
+<template #abs>
+
+::: tip Abstract
+Language understanding requires not only linguistic knowledge but also relies on knowledge that is external to textual symbols.
+A vast amount of knowledge is stored in the form of graph-structured data in many application domains.
+Despite a growing interest in developing knowledge-driven approaches in the community, how to build powerful representations of graph-structured knowledge and effectively incorporate them into language understanding models remains a challenging problem in natural language processing research.
+
+This thesis explores the direction of contextualizing language understanding with graph-based knowledge representations.
+I first demonstrate the challenges of building meaningful interactions between language representations and domain-specific knowledge representations in the task of cross-domain Text-to-SQL semantic parsing.
+By citing this example, I point out the idea of fostering multiple connections between the two representations in their different levels of abstraction and utilize the idea to substantially improve two graph neural network-based semantic parsers.
+To implement this idea in a more general form to benefits more language understanding tasks, I propose a new knowledge graph representation model that shares a similar Transformer architecture design with prevalent language models.
+In the task of factoid question answering, I show that the proposed knowledge representations can be effectively integrated into state-of-the-art pre-trained language models via a simple cross-modality attention mechanism.
+:::
+
+</template>
+<template #bib>
+
+``` tex
+@mastersthesis{chen2020contextualizing,
+	title = {Contextualizing Language Understanding with Graph-based Knowledge Representations},
+	school = {The University of Virginia},
+	author = {Chen, Sanxing},
+	year = {2020},
+	langid = {english}
+}
+```
+
+</template>
+</paper>
 
 <paper arxiv="https://arxiv.org/abs/2008.12813">
 <template #title>⚾️ HittER: Hierarchical Transformers for Knowledge Graph Embeddings</template>
@@ -97,10 +132,11 @@ This paper examines the challenging problem of learning representations of entit
 
 </template>
 </paper>
-<paper arxiv="https://arxiv.org/abs/2009.14809" code="https://github.com/sanxing-chen/linking-tale">
+
+<paper paper="https://www.aclweb.org/anthology/2020.coling-main.260" arxiv="https://arxiv.org/abs/2009.14809" code="https://github.com/sanxing-chen/linking-tale">
 <template #title>A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-SQL Parsing</template>
 <template #authors><strong>Sanxing Chen</strong>, Aidan San, Xiaodong Liu, Yangfeng Ji</template>
-<template #venue>To appear at COLING'2020</template>
+<template #venue>In COLING'2020 (Oral)</template>
 <template #abs>
 
 ::: tip Abstract
@@ -112,10 +148,18 @@ In Text-to-SQL semantic parsing, selecting the correct entities (tables and colu
 
 ``` tex
 @inproceedings{chen2020tale,
-    title={A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-SQL Parsing},
-    author={Sanxing Chen and Aidan San and Xiaodong Liu and Yangfeng Ji},
+    title = "A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-{SQL} Parsing",
+    author = "Chen, Sanxing  and
+      San, Aidan  and
+      Liu, Xiaodong  and
+      Ji, Yangfeng",
     booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
-    year={2020}
+    month = dec,
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.coling-main.260",
+    pages = "2900--2912"
 }
 ```
 
@@ -124,14 +168,14 @@ In Text-to-SQL semantic parsing, selecting the correct entities (tables and colu
 
 ## Service
 
-- Program committee member (reviewer): COLING'2020
+- Program committee member (reviewer): COLING'2020, NAACL'2021
 - Secondary reviewer: TPAMI'2020
-- Volunteer: ACL'2020
+- Volunteer: ACL'2020, EMNLP'2020
 
 ## Misc
 
 - My name is pronounced as "sǣnɕə̄ŋ".
-- I come from [Quanzhou](https://en.wikipedia.org/wiki/Quanzhou).
+- I come from [Quanzhou](https://en.wikipedia.org/wiki/Quanzhou). It was one of the world's largest and most cosmopolitan seaports.
 - I started playing the violin when I was a little boy.
 
 
