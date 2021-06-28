@@ -20,25 +20,23 @@ lang: en-US
 
 <img src="./img/uva.jpg" alt="img" id="myimg" style="float:right;border-radius: 0 12% 0 0;transition: width 0.5s;opacity: 0.8;">
 
-I'm a second-year master student in computer science at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), where I work with Prof. [Yangfeng Ji](http://yangfengji.net) in the [NLP group](https://uvanlp.org/).
-
 I am interested in helping computers to learn natural languages in the way humans do.
 Language is the [conduit](https://en.wikipedia.org/wiki/Conduit_metaphor) which bridges different forms of knowledge.
 So, by itself, it doesn't necessarily contain all the information.
 That's why I'm currently focusing on grounded language learning,
 especially in finding intuitive algorithms to perform relational learning on graphs and texts.
 
-**I'm actively looking for Ph.D. and research internship opportunities starting Spring 2021. <a href="CV.pdf" target="_blank">[CV]</a>**
-
-<!-- I was lucky to be exposed to a few NLP research studies early at college.
-For instance, I worked on domain adaptation for machine translation with Prof. [Xiaohui Ji](https://www.researchgate.net/scientific-contributions/69798625_Xiaohui_Ji).  -->
+I received my MS degree in computer science at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), where I was a member of the [ILP Lab](https://uvanlp.org/) working with Prof. [Yangfeng Ji](http://yangfengji.net).
 
 ## News  :tada:
 
-- **[Nov 01, 2020]** I'll be volunteering at [EMNLP 2020](https://2020.emnlp.org/), and presenting at [COLING 2020](https://coling2020.org) virtually!
-- **[Jun 12, 2020]** I'll be attending [AKBC 2020](https://www.akbc.ws/2020/), [ACL 2020](https://acl2020.org/) and [ICML 2020](https://icml.cc/Conferences/2020) virtually!
+- **[Jun 27, 2021]** I'm moving to the Greater Seattle Area to join Microsoft as an applied scientist!
 
 <!-- 
+- **[Jan 06, 2021]** I'll be joining [MSR](https://www.microsoft.com/en-us/research/group/deep-learning-group/) as a research intern this spring!
+- **[Dec 14, 2020]** All Ph.D. applications have been sent out, wish me luck!
+- **[Nov 01, 2020]** I'll be volunteering at [EMNLP 2020](https://2020.emnlp.org/), and presenting at [COLING 2020](https://coling2020.org) virtually!
+- **[Jun 12, 2020]** I'll be attending [AKBC 2020](https://www.akbc.ws/2020/), [ACL 2020](https://acl2020.org/) and [ICML 2020](https://icml.cc/Conferences/2020) virtually!
 - **[Apr 24, 2020]** I'll be attending [ICLR 2020](https://iclr.cc) virtually!
 - **[Jan 19, 2020]** I'll be with Microsoft Ads and [MSR](https://www.microsoft.com/en-us/research/group/deep-learning-group/) this summer!
 - **[Dec 21, 2019]** I'm actively seeking R&D internship opportunities for summer 2020!
@@ -51,11 +49,25 @@ For instance, I worked on domain adaptation for machine translation with Prof. [
 ## Experience
 
 <experience>
+<template #company>Microsoft Bing Ads</template>
+<template #title>Applied Scientist</template>
+<template #location>Bellevue, United States</template>
+<template #date>Jul 2021 (Exp.) - </template>
+</experience>
+
+<experience>
+<template #company>Microsoft Research</template>
+<template #title>Research Intern</template>
+<template #location>Home office, United States</template>
+<template #date>Mar 2021 - June 2021</template>
+<template #work>Large-scale knowledge graph encoding with <a href="https://sites.google.com/site/hcheng2site">Hao Cheng</a> and <a href="https://sites.google.com/view/buptxiaodong/home">Xiaodong Liu</a></template>
+</experience>
+<experience>
 <template #company>Bing Ads & Microsoft Research</template>
 <template #title>Research Intern</template>
 <template #location>Home office, United States</template>
 <template #date>May 2020 - Aug 2020</template>
-<template #work>Relational learning and NLP with <a href="https://sites.google.com/view/buptxiaodong/home">Xiaodong Liu</a>, <a href="https://www.linkedin.com/in/jian-jiao-82897810">Jian Jiao</a>, <a href="https://www.linkedin.com/in/ruofei">Bruce Zhang</a>, and <a href="https://sites.google.com/view/buptxiaodong/home">Jianfeng Gao</a></template>
+<template #work>Relational learning and NLP with <a href="https://sites.google.com/view/buptxiaodong/home">Xiaodong Liu</a> and <a href="https://www.linkedin.com/in/jian-jiao-82897810">Jian Jiao</a></template>
 </experience>
 <experience>
 <template #company>Microsoft Research Asia</template>
@@ -168,7 +180,7 @@ In Text-to-SQL semantic parsing, selecting the correct entities (tables and colu
 
 ## Service
 
-- Program committee member (reviewer): COLING'2020, NAACL'2021
+- Program committee member (reviewer): COLING'2020, NAACL'2021, ACL'2021, EMNLP' 2021, NLPCC' 2021
 - Secondary reviewer: TPAMI'2020
 - Volunteer: ACL'2020, EMNLP'2020
 
