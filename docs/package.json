@@ -4,5 +4,8 @@
     "glob": "^7.1.4",
     "vuepress": "1.2"
   },
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "dependencies": {
+    "markdown-it": "12"
+  }
 }

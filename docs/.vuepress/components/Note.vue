@@ -2,12 +2,12 @@
 <div v-if="issues">
   <h1>Paper notes</h1>
   <ul>
-    <div v-for="(record, idx) in issues">
+    <div v-for="(record, idx) in issues" :key="idx">
       <h2 v-if="idx == 0 || formatDate(issues[idx-1].created_at) != formatDate(record.created_at)">
         {{formatDate(record.created_at)}}
       </h2>
       <h3 class="title">{{record.title}} <a :href="record.url | api2www" target="_blank">#</a></h3>
-      <a v-for="label in record.labels" :href="label.url | api2www" target="_blank">
+      <a v-for="(label, lIdx) in record.labels" :href="label.url | api2www" :key="lIdx" target="_blank">
         <span
           class="badge"
           :style="{'background-color': '#'+label.color}">
