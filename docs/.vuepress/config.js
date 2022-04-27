@@ -2,7 +2,7 @@ const glob = require('glob');
 let markdownFiles = glob.sync('post/*.md').map(f => '/' + f); 
 
 module.exports = {
-    base: '/~sc3hn/',
+    base: '/',
     head: [
       ['link', { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' }],
       ['script', { src: 'https://use.typekit.net/tgy5tlj.js' }],

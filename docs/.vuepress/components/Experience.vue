@@ -14,9 +14,9 @@
     <div class="title">
       <slot name="title"></slot>
     </div>
-    <div>
+    <!-- <div>
       <slot name="work"></slot>
-    </div>
+    </div> -->
   </div>
 </template>
 

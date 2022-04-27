@@ -2,6 +2,7 @@
 docs/.vuepress/dist
 docs/node_modules
 docs/post
+docs/img
 docs/.vuepress/public
 .DS_Store
 *.log

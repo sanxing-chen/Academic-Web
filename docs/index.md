@@ -1,12 +1,14 @@
 ---
-title: Sanxing Chen - UVa CS
+title: Sanxing Chen - NLP
 lang: en-US
 ---
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
 
 <!-- # <div><p style="font-variant: small-caps; display: inline;">Sanxing Chen</p></div> -->
 <h3></h3>
-<div><h1 style='background: unset; color: #e57200;'>Sanxing</h1> <h1>Chen</h1></div>
+<div><h1 style='background: unset; color: #012169;'>Sanxing</h1> <h1>Chen</h1>
+
+</div>
 <!-- <p style="font-family:'Noto Serif SC', serif; display: inline;">陈三星</p> -->
 
 <style type="text/css"> 
@@ -15,24 +17,26 @@ lang: en-US
 
 </style>
 
+<img src="./img/sketch.png" alt="img" id="myimg" style="float:right;transition: width 0.5s;opacity: 0.8;">
 
 ## Bio
 
-<img src="./img/uva.jpg" alt="img" id="myimg" style="float:right;border-radius: 0 12% 0 0;transition: width 0.5s;opacity: 0.8;">
 
-I am interested in helping computers to learn natural languages in the way humans do.
-Language is the [conduit](https://en.wikipedia.org/wiki/Conduit_metaphor) which bridges different forms of knowledge.
-So, by itself, it doesn't necessarily contain all the information.
-That's why I'm currently focusing on grounded language learning,
-especially in finding intuitive algorithms to perform relational learning on graphs and texts.
+I research, through a language processing lens, how to help computers to acquire knowledge and reason in the way human beings do.
+Language is the [conduit](https://en.wikipedia.org/wiki/Conduit_metaphor) transmitting all kinds of knowledge between people.
+I'm thus interested in grounded language learning,
+especially in finding intuitive and theoretically sound algorithms to perform relational learning on knowledge and language representations.
 
-I received my MS degree in computer science at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), where I was a member of the [ILP Lab](https://uvanlp.org/) working with Prof. [Yangfeng Ji](http://yangfengji.net).
+I currently work as an applied scientist at Microsoft.
+I did my master's studies at the University of Virginia, where I was a member of the [ILP Lab](https://uvanlp.org/) working with Prof. [Yangfeng Ji](http://yangfengji.net).
+I've also spent time at Microsoft Research ([Beijing](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) and [Redmond](https://www.microsoft.com/en-us/research/group/deep-learning-group/)) since I was an undergraduate at [CUGB](https://en.cugb.edu.cn).
 
-## News  :tada:
-
-- **[Jun 27, 2021]** I'm moving to the Greater Seattle Area to join Microsoft as an applied scientist!
 
 <!-- 
+## News  :tada:
+
+- **[Nov 01, 2021]** HittER paper is accpeted to EMNLP 2021 (oral presentation), check out our [paper](https://aclanthology.org/2021.emnlp-main.812/) and [code](https://github.com/microsoft/HittER)!
+- **[Jun 27, 2021]** I'm moving to the Greater Seattle Area to join Microsoft as an applied scientist!
 - **[Jan 06, 2021]** I'll be joining [MSR](https://www.microsoft.com/en-us/research/group/deep-learning-group/) as a research intern this spring!
 - **[Dec 14, 2020]** All Ph.D. applications have been sent out, wish me luck!
 - **[Nov 01, 2020]** I'll be volunteering at [EMNLP 2020](https://2020.emnlp.org/), and presenting at [COLING 2020](https://coling2020.org) virtually!
@@ -44,7 +48,7 @@ I received my MS degree in computer science at the [University of Virginia](http
 - **[Mar 28, 2019]** Got accepted to MSCS@[UMass](https://umass.edu)!
 - **[Feb 27, 2019]** I'm going to rejoin MSRA in April, excited to see my old friends there!
 - **[Feb 21, 2019]** Got accepted to MSCS@[UVa](http://virginia.edu)!
-- **[Dec 16, 2018]** All MS/Ph.D. applications sent out! -->
+- **[Dec 16, 2018]** All MS/Ph.D. applications sent out!
 
 ## Experience
 
@@ -52,7 +56,7 @@ I received my MS degree in computer science at the [University of Virginia](http
 <template #company>Microsoft Bing Ads</template>
 <template #title>Applied Scientist</template>
 <template #location>Bellevue, United States</template>
-<template #date>Jul 2021 (Exp.) - </template>
+<template #date>Jul 2021 - Now</template>
 </experience>
 
 <experience>
@@ -64,27 +68,63 @@ I received my MS degree in computer science at the [University of Virginia](http
 </experience>
 <experience>
 <template #company>Bing Ads & Microsoft Research</template>
-<template #title>Research Intern</template>
+<template #title>Data Scientist Intern</template>
 <template #location>Home office, United States</template>
 <template #date>May 2020 - Aug 2020</template>
 <template #work>Relational learning and NLP with <a href="https://sites.google.com/view/buptxiaodong/home">Xiaodong Liu</a> and <a href="https://www.linkedin.com/in/jian-jiao-82897810">Jian Jiao</a></template>
 </experience>
 <experience>
 <template #company>Microsoft Research Asia</template>
-<template #title>Research Intern</template>
+<template #title>Intern</template>
 <template #location>Beijing, China</template>
 <template #date>Mar 2019 - Jun 2019</template>
 <template #work><a href="bert-time.pdf" target="_blank">Time expression recognition</a> with <a href="https://www.microsoft.com/en-us/research/people/guow/" target="_blank">Guoxin Wang</a> and <a href="https://www.microsoft.com/en-us/research/people/borjekar/" target="_blank">Börje Karlsson</a></template>
 </experience>
 <experience>
 <template #company>Microsoft Research Asia</template>
-<template #title>Research Intern</template>
+<template #title>Intern</template>
 <template #location>Beijing, China</template>
 <template #date>Feb 2018 - Sep 2018</template>
 <template #work><a href="https://github.com/Microsoft/Recognizers-Text" target="_blank">Generic types entity recognition</a> with <a href="https://www.microsoft.com/en-us/research/people/borjekar/" target="_blank">Börje Karlsson</a></template>
 </experience>
+-->
 
 ## Publications
+
+<paper paper="https://aclanthology.org/2021.emnlp-main.812/" arxiv="https://arxiv.org/abs/2008.12813" code="https://github.com/microsoft/HittER">
+<template #title>⚾️ HittER: Hierarchical Transformers for Knowledge Graph Embeddings</template>
+<template #authors><strong>Sanxing Chen</strong>, Xiaodong Liu, Jianfeng Gao, Jian Jiao, Ruofei Zhang, Yangfeng Ji</template>
+<template #venue>In EMNLP'2021 (Oral)</template>
+<template #abs>
+
+::: tip Abstract
+This paper examines the challenging problem of learning representations of entities and relations in a complex multi-relational knowledge graph. We propose HittER, a **Hi**erarchical **T**ransformer model **t**o jointly learn **E**ntity-relation composition and **R**elational contextualization based on a source entity’s neighborhood. Our proposed model consists of two different Transformer blocks: the bottom block extracts features of each entity-relation pair in the local neighborhood of the source entity and the top block aggregates the relational information from outputs of the bottom block. We further design a masked entity prediction task to balance information from the relational context and the source entity itself. Experimental results show that HittER achieves new state-of-the-art results on multiple link prediction datasets. We additionally propose a simple approach to integrate HittER into BERT and demonstrate its effectiveness on two Freebase factoid question answering datasets.
+:::
+
+</template>
+<template #bib>
+
+``` tex
+@inproceedings{chen-etal-2021-hitter,
+    title = "{H}itt{ER}: Hierarchical Transformers for Knowledge Graph Embeddings",
+    author = "Chen, Sanxing  and
+      Liu, Xiaodong  and
+      Gao, Jianfeng  and
+      Jiao, Jian  and
+      Zhang, Ruofei  and
+      Ji, Yangfeng",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.812",
+    pages = "10395--10407",
+}
+```
+
+</template>
+</paper>
 
 <paper paper="https://doi.org/10.18130/v3-mhyd-et41">
 <template #title>Contextualizing Language Understanding with Graph-based Knowledge Representations</template>
@@ -114,31 +154,6 @@ In the task of factoid question answering, I show that the proposed knowledge re
 	author = {Chen, Sanxing},
 	year = {2020},
 	langid = {english}
-}
-```
-
-</template>
-</paper>
-
-<paper arxiv="https://arxiv.org/abs/2008.12813">
-<template #title>⚾️ HittER: Hierarchical Transformers for Knowledge Graph Embeddings</template>
-<template #authors><strong>Sanxing Chen</strong>, Xiaodong Liu, Jianfeng Gao, Jian Jiao, Ruofei Zhang, Yangfeng Ji</template>
-<template #venue>Pre-print</template>
-<template #abs>
-
-::: tip Abstract
-This paper examines the challenging problem of learning representations of entities and relations in a complex multi-relational knowledge graph. We propose **HittER**, a **Hi**erarchical **T**ransformer model **t**o jointly learn **E**ntity-relation composition and **R**elational contextualization based on a source entity’s neighborhood. Our proposed model consists of two different Transformer blocks: the bottom block extracts features of each entity-relation pair in the local neighborhood of the source entity and the top block aggregates the relational information from the outputs of the bottom block. We further design a masked entity prediction task to balance information from the relational context and the source entity itself. Evaluated on the task of link prediction, our approach achieves new state-of-the-art results on two standard benchmark datasets FB15K-237 and WN18RR.
-:::
-
-</template>
-<template #bib>
-
-``` tex
-@article{chen2020hitter,
-    title={HittER: Hierarchical Transformers for Knowledge Graph Embeddings},
-    author={Sanxing Chen and Xiaodong Liu and Jianfeng Gao and Jian Jiao and Ruofei Zhang and Yangfeng Ji},
-    journal={arXiv preprint arXiv:2008.12813},
-    year={2020}
 }
 ```
 
@@ -180,24 +195,20 @@ In Text-to-SQL semantic parsing, selecting the correct entities (tables and colu
 
 ## Service
 
-- Program committee member (reviewer): COLING'2020, NAACL'2021, ACL'2021, EMNLP' 2021, NLPCC' 2021
-- Secondary reviewer: TPAMI'2020
+- Program committee member (reviewer): COLING'2020, NAACL'2021, ACL'2021, EMNLP' 2021, NLPCC' 2021, ARR (regularly)
 - Volunteer: ACL'2020, EMNLP'2020
 
 ## Misc
 
 - My name is pronounced as "sǣnɕə̄ŋ".
-- I come from [Quanzhou](https://en.wikipedia.org/wiki/Quanzhou). It was one of the world's largest and most cosmopolitan seaports.
+- I am originally from [Quanzhou](https://en.wikipedia.org/wiki/Quanzhou), China. It was one of the world's largest and most cosmopolitan seaports and now a [World Heritage Site](https://whc.unesco.org/en/list/1561). (Interestingly, UVA is also a [World Heritage Site](https://whc.unesco.org/en/list/442).)
 - I started playing the violin when I was a little boy.
 
 
 ## Contact
 
-:email:
+:email: i [at] sxing [dot] xyz
 
-- sc3hn [at] virginia [dot] edu
-- staychan [dot] cn [at] gmail [dot] com
-
-:bird:
+:bird: @sanxing_chen
 
 <a class="twitter-timeline" data-lang="en" data-width="390" data-height="600" data-theme="light" data-link-color="#e57200" href="https://twitter.com/sanxing_chen/likes?ref_src=twsrc%5Etfw">Tweets Liked by @sanxing_chen</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
