@@ -1,6 +1,7 @@
 ---
 title: Sanxing Chen - NLP
 lang: en-US
+sidebar: false
 ---
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
 

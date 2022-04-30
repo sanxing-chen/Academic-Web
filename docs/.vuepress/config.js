@@ -1,5 +1,6 @@
 const glob = require('glob');
-let markdownFiles = glob.sync('post/*.md').map(f => '/' + f); 
+let enMarkdownFiles = glob.sync('post/en/*.md').map(f => '/' + f); 
+let zhMarkdownFiles = glob.sync('post/zh/*.md').map(f => '/' + f); 
 
 module.exports = {
     base: '/',
@@ -13,12 +14,21 @@ module.exports = {
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Blog', link: '/post/index/' },
-        { text: 'Note', link: '/note/index/' },
         { text: 'GitHub', link: 'https://github.com/sanxing-chen' },
       ],
-      sidebar: {
-        '/post/': markdownFiles
-      },
+      sidebar: [
+        {
+          title: 'EN',
+          path: '/post/index/',
+          collapsable: false,
+          children: enMarkdownFiles
+        },
+        {
+          title: '中文',
+          path: '/post/index/',
+          children: zhMarkdownFiles
+        }
+      ],
       lastUpdated: 'Last Updated',
       smoothScroll: true
     },

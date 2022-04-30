@@ -11,7 +11,7 @@
     </div>
     <span class="badge" style="background-color: #2c3e50" @click="showAbs = !showAbs">Abs</span>
     <span class="badge" style="background-color: #e57200" @click="showBib = !showBib">Bib</span>
-    <a v-for="item in meta" v-if="item.url" :href="item.url" target="_blank">
+    <a v-for="(item, idx) in activeMeta" :key="idx" :href="item.url" target="_blank">
       <span class="badge" :style="{'background-color': item.color}">{{item.name}}</span>
     </a>
     <transition name="fadeHeight" mode="in-out">
@@ -42,6 +42,11 @@ export default {
       ],
     };
   },
+  computed: {
+    activeMeta: function () {
+      return this.meta.filter(x => x.url)
+    }
+  }
 };
 </script>
 
