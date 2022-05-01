@@ -39,5 +39,10 @@ module.exports = {
           'ga': 'UA-76805514-4' // UA-00000000-0
         }
       ]  
-    ] 
+    ],
+    markdown: {
+      extendMarkdown: md => {
+        md.use(require("markdown-it-footnote"));
+        }
+    }
   }

@@ -6,6 +6,7 @@
   },
   "version": "0.0.0",
   "dependencies": {
-    "markdown-it": "12"
+    "markdown-it": "12",
+    "markdown-it-footnote": "^3.0.3"
   }
 }
