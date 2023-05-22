@@ -8,6 +8,8 @@ module.exports = {
       ['link', { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' }],
       ['script', { src: 'https://use.typekit.net/tgy5tlj.js' }],
       ['script', {}, 'try{Typekit.load();}catch(e){console.log(e)}'],
+      ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-XK6H959MHP', async: true }],
+      ['script', {}, "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XK6H959MHP');"],
     ],
     themeConfig: {
       search: false,
@@ -32,14 +34,7 @@ module.exports = {
       lastUpdated: 'Last Updated',
       smoothScroll: true
     },
-    plugins: [
-      [ 
-        '@vuepress/google-analytics',
-        {
-          'ga': 'UA-76805514-4' // UA-00000000-0
-        }
-      ]  
-    ],
+    plugins: [],
     markdown: {
       extendMarkdown: md => {
         md.use(require("markdown-it-footnote"));

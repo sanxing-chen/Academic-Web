@@ -13,29 +13,38 @@ sidebar: false
 <!-- <p style="font-family:'Noto Serif SC', serif; display: inline;">陈三星</p> -->
 
 <style type="text/css"> 
-
-
-
+p:nth-child(6) .icon.outbound,
+p:nth-child(7) .icon.outbound
+{
+  display: none;
+}
+a {
+  display: inline-block;
+}
 </style>
 
 <img src="./img/sketch.png" alt="img" id="myimg" style="float:right;transition: width 0.5s;opacity: 0.8;">
 
 ## Bio
 
+I am a PhD student at Duke University, advised by [Bhuwan Dhingra](https://users.cs.duke.edu/~bdhingra/) and [Sam Wiseman](https://swiseman.github.io).
+I research, through a language processing lens, how to help computers to learn, think, and communicate in the way human beings do.
+Humans learn language through brief interactions with the world at an early developmental stage, and then it becomes the [conduit](https://en.wikipedia.org/wiki/Conduit_metaphor) that transmits all kinds of knowledge between people.
+In constract, current most advanced learning systems *learn* language from billions of words in plain text.
+I'm thus interested in situated learning, especially in an interactive environment.
 
-I research, through a language processing lens, how to help computers to acquire knowledge and reason in the way human beings do.
-Language is the [conduit](https://en.wikipedia.org/wiki/Conduit_metaphor) transmitting all kinds of knowledge between people.
-I'm thus interested in grounded language learning,
-especially in finding intuitive and theoretically sound algorithms to perform relational learning on knowledge and language representations.
-
-I currently work as an applied scientist at Microsoft.
-I did my master's studies at the University of Virginia, where I was a member of the [ILP Lab](https://uvanlp.org/) working with Prof. [Yangfeng Ji](http://yangfengji.net).
+Previously, I spent a year working as an applied scientist at Microsoft.
+I did my master's work at the University of Virginia, where I was a member of the [ILP Lab](https://uvanlp.org/) working with [Yangfeng Ji](http://yangfengji.net).
 I've also spent time at Microsoft Research ([Beijing](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) and [Redmond](https://www.microsoft.com/en-us/research/group/deep-learning-group/)) since I was an undergraduate at [CUGB](https://en.cugb.edu.cn).
 
+*I was lucky to have the opportunity to have great mentors and be involved in research during my undergrad study. If you're a Duke undergrad and feel like I can of some help to your research career, feel free to email me.*
+
+## News  :tada:
+- **[Mar 28, 2023]** We released our follow-up work of ⚾️ HittER on [arXiv](https://arxiv.org/abs/2303.15682)!
 
 <!-- 
-## News  :tada:
 
+- **[Jul 22, 2022]** I collected a list of papers I found interesting at [NAACL 2022](https://sanxing.notion.site/NAACL-2022-5168912ed6724d73b3beb995040280d5).
 - **[Nov 01, 2021]** HittER paper is accpeted to EMNLP 2021 (oral presentation), check out our [paper](https://aclanthology.org/2021.emnlp-main.812/) and [code](https://github.com/microsoft/HittER)!
 - **[Jun 27, 2021]** I'm moving to the Greater Seattle Area to join Microsoft as an applied scientist!
 - **[Jan 06, 2021]** I'll be joining [MSR](https://www.microsoft.com/en-us/research/group/deep-learning-group/) as a research intern this spring!
@@ -91,6 +100,33 @@ I've also spent time at Microsoft Research ([Beijing](https://www.microsoft.com/
 -->
 
 ## Publications
+
+<paper arxiv="https://arxiv.org/abs/2303.15682" code="https://github.com/microsoft/HittER">
+<template #title>Pre-training Transformers for Knowledge Graph Completion</template>
+<template #authors><strong>Sanxing Chen</strong>, Hao Cheng, Xiaodong Liu, Jian Jiao, Yangfeng Ji, Jianfeng Gao</template>
+<template #venue>Preprint, 2023</template>
+<template #abs>
+
+::: tip Abstract
+Learning transferable representation of knowledge graphs (KGs) is challenging due to the heterogeneous, multi-relational nature of graph structures. Inspired by Transformer-based pretrained language models' success on learning transferable representation for texts, we introduce a novel inductive KG representation model (iHT) for KG completion by large-scale pre-training. iHT consists of a entity encoder (e.g., BERT) and a neighbor-aware relational scoring function both parameterized by Transformers. We first pre-train iHT on a large KG dataset, Wikidata5M. Our approach achieves new state-of-the-art results on matched evaluations, with a relative improvement of more than 25% in mean reciprocal rank over previous SOTA models. When further fine-tuned on smaller KGs with either entity and relational shifts, pre-trained iHT representations are shown to be transferable, significantly improving the performance on FB15K-237 and WN18RR.
+:::
+
+</template>
+<template #bib>
+
+``` tex
+@misc{chen2023pretraining,
+      title={Pre-training Transformers for Knowledge Graph Completion}, 
+      author={Sanxing Chen and Hao Cheng and Xiaodong Liu and Jian Jiao and Yangfeng Ji and Jianfeng Gao},
+      year={2023},
+      eprint={2303.15682},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+</template>
+</paper>
 
 <paper paper="https://aclanthology.org/2021.emnlp-main.812/" arxiv="https://arxiv.org/abs/2008.12813" code="https://github.com/microsoft/HittER">
 <template #title>⚾️ HittER: Hierarchical Transformers for Knowledge Graph Embeddings</template>
@@ -212,4 +248,5 @@ In Text-to-SQL semantic parsing, selecting the correct entities (tables and colu
 
 :bird: @sanxing_chen
 
-<a class="twitter-timeline" data-lang="en" data-width="390" data-height="600" data-theme="light" data-link-color="#e57200" href="https://twitter.com/sanxing_chen/likes?ref_src=twsrc%5Etfw">Tweets Liked by @sanxing_chen</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<a class="twitter-timeline" data-lang="en" data-width="390" data-height="600" data-theme="light" data-link-color="#e57200" href="https://twitter.com/sanxing_chen?ref_src=twsrc%5Etfw">Tweets by sanxing_chen</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
