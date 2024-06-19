@@ -33,13 +33,14 @@ Humans learn language through brief interactions with the world at an early deve
 In constract, current most advanced learning systems *learn* language from billions of words in plain text.
 I'm thus interested in situated learning, especially in an interactive environment.
 
-Previously, I spent a year working as an applied scientist at Microsoft.
+Previously, I was an applied scientist at Microsoft.
 I did my master's work at the University of Virginia, where I was a member of the [ILP Lab](https://uvanlp.org/) working with [Yangfeng Ji](http://yangfengji.net).
 I've also spent time at Microsoft Research ([Beijing](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) and [Redmond](https://www.microsoft.com/en-us/research/group/deep-learning-group/)) since I was an undergraduate at [CUGB](https://en.cugb.edu.cn).
 
-*I was lucky to have the opportunity to have great mentors and be involved in research during my undergrad study. If you're a Duke undergrad and feel like I can of some help to your research career, feel free to email me.*
+*I was lucky to have the opportunity to have great mentors and be involved in research during my undergrad study. If you're a Duke undergrad and feel like I can be of some help to your research career, feel free to email me.*
 
 ## News  :tada:
+- **[Jun 03, 2024]** I started my internship at [Google DeepMind](https://deepmind.google/) NYC!
 - **[Mar 28, 2023]** We released our follow-up work of ⚾️ HittER on [arXiv](https://arxiv.org/abs/2303.15682)!
 
 <!-- 
@@ -101,6 +102,84 @@ I've also spent time at Microsoft Research ([Beijing](https://www.microsoft.com/
 
 ## Publications
 
+<paper arxiv="https://arxiv.org/abs/2404.09911">
+<template #title>ChatShop: Interactive Information Seeking with Language Agents</template>
+<template #authors><strong>Sanxing Chen</strong>, Sam Wiseman, Bhuwan Dhingra</template>
+<template #venue>Preprint, 2024</template>
+<template #abs>
+
+::: tip Abstract
+The desire and ability to seek new information strategically are fundamental to human learning but often overlooked in current language agent evaluation. We analyze a popular web shopping task designed to test language agents' ability to perform strategic exploration and discover that it can be reformulated and solved as a single-turn retrieval task without the need for interactive information seeking. This finding encourages us to rethink realistic constraints on information access that would necessitate strategic information seeking. We then redesign the task to introduce a notion of task ambiguity and the role of a shopper, serving as a dynamic party with whom the agent strategically interacts in an open-ended conversation to make informed decisions. Our experiments demonstrate that the proposed task can effectively evaluate the agent's ability to explore and gradually accumulate information through multi-turn interactions. Additionally, we show that large language model-simulated shoppers serve as a good proxy for real human shoppers, revealing similar error patterns in agents.
+:::
+
+</template>
+<template #bib>
+
+``` tex
+@article{chen2024chatshop,
+  title={ChatShop: Interactive Information Seeking with Language Agents},
+  author={Chen, Sanxing and Wiseman, Sam and Dhingra, Bhuwan},
+  journal={arXiv preprint arXiv:2404.09911},
+  year={2024}
+}
+```
+
+</template>
+</paper>
+
+<paper paper="https://aclanthology.org/2024.findings-naacl.164/" arxiv="https://arxiv.org/abs/2405.10861"  code="https://github.com/rickardstureborg/tailor-cgo">
+<template #title>Tailoring Vaccine Messaging with Common-Ground Opinions</template>
+<template #authors>Rickard Stureborg, <strong>Sanxing Chen</strong>, Ruoyu Xie, Aayushi Patel, Christopher Li, Chloe Qinyu Zhu, Tingnan Hu, Jun Yang, Bhuwan Dhingra</template>
+<template #venue>In NAACL'2024 (Poster)</template>
+<template #abs>
+
+::: tip Abstract
+One way to personalize chatbot interactions is by establishing common ground with the intended reader. A domain where establishing mutual understanding could be particularly impactful is vaccine concerns and misinformation. Vaccine interventions are forms of messaging which aim to answer concerns expressed about vaccination. Tailoring responses in this domain is difficult, since opinions often have seemingly little ideological overlap. We define the task of tailoring vaccine interventions to a Common-Ground Opinion (CGO). Tailoring responses to a CGO involves meaningfully improving the answer by relating it to an opinion or belief the reader holds. In this paper we introduce TAILOR-CGO, a dataset for evaluating how well responses are tailored to provided CGOs. We benchmark several major LLMs on this task; finding GPT-4-Turbo performs significantly better than others. We also build automatic evaluation metrics, including an efficient and accurate BERT model that outperforms finetuned LLMs, investigate how to successfully tailor vaccine messaging to CGOs, and provide actionable recommendations from this investigation.
+:::
+
+</template>
+<template #bib>
+
+``` tex
+@misc{stureborg2024tailoring,
+      title={Tailoring Vaccine Messaging with Common-Ground Opinions}, 
+      author={Rickard Stureborg and Sanxing Chen and Ruoyu Xie and Aayushi Patel and Christopher Li and Chloe Qinyu Zhu and Tingnan Hu and Jun Yang and Bhuwan Dhingra},
+      year={2024},
+      eprint={2405.10861},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+</template>
+</paper>
+
+<paper arxiv="https://arxiv.org/abs/2401.11323">
+<template #title>Analyzing Task-Encoding Tokens in Large Language Models</template>
+<template #authors>Yu Bai, Heyan Huang, Cesare Spinoso-Di Piano, Marc-Antoine Rondeau, <strong>Sanxing Chen</strong>, Yang Gao, Jackie Chi Kit Cheung</template>
+<template #venue>Preprint, 2024</template>
+<template #abs>
+
+::: tip Abstract
+In-context learning (ICL) has become an effective solution for few-shot learning in natural language processing. Past work has found that, during this process, representations of the last prompt token are utilized to store task reasoning procedures, thereby explaining the working mechanism of in-context learning. In this paper, we seek to locate and analyze other task-encoding tokens whose representations store task reasoning procedures. Supported by experiments that ablate the representations of different token types, we find that template and stopword tokens are the most prone to be task-encoding tokens. In addition, we demonstrate experimentally that lexical cues, repetition, and text formats are the main distinguishing characteristics of these tokens. Our work provides additional insights into how large language models (LLMs) leverage task reasoning procedures in ICL and suggests that future work may involve using task-encoding tokens to improve the computational efficiency of LLMs at inference time and their ability to handle long sequences.
+:::
+
+</template>
+<template #bib>
+
+``` tex
+@article{bai2024analyzing,
+  title   = {Analyzing Task-Encoding Tokens in Large Language Models},
+  author  = {Yu Bai and Heyan Huang and Cesare Spinoso-Di Piano and Marc-Antoine Rondeau and Sanxing Chen and Yang Gao and Jackie Chi Kit Cheung},
+  year    = {2024},
+  journal = {arXiv preprint arXiv: 2401.11323}
+}
+```
+
+</template>
+</paper>
+
+
 <paper arxiv="https://arxiv.org/abs/2303.15682" code="https://github.com/microsoft/HittER">
 <template #title>Pre-training Transformers for Knowledge Graph Completion</template>
 <template #authors><strong>Sanxing Chen</strong>, Hao Cheng, Xiaodong Liu, Jian Jiao, Yangfeng Ji, Jianfeng Gao</template>
@@ -127,6 +206,7 @@ Learning transferable representation of knowledge graphs (KGs) is challenging du
 
 </template>
 </paper>
+
 
 <paper paper="https://aclanthology.org/2021.emnlp-main.812/" arxiv="https://arxiv.org/abs/2008.12813" code="https://github.com/microsoft/HittER">
 <template #title>⚾️ HittER: Hierarchical Transformers for Knowledge Graph Embeddings</template>
@@ -244,7 +324,7 @@ In Text-to-SQL semantic parsing, selecting the correct entities (tables and colu
 
 ## Contact
 
-:email: i [at] sxing [dot] xyz
+:email: sxing [dot] xyz [at] outlook [dot] com
 
 :bird: @sanxing_chen
 
