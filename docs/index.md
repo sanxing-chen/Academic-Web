@@ -27,15 +27,16 @@ a {
 
 ## Bio
 
-I am a PhD student at Duke University, advised by [Bhuwan Dhingra](https://users.cs.duke.edu/~bdhingra/) and [Sam Wiseman](https://swiseman.github.io).
-I research, through a language processing lens, how to help computers to learn, think, and communicate in the way human beings do.
+I am a third-year PhD student at Duke University, advised by [Bhuwan Dhingra](https://users.cs.duke.edu/~bdhingra/) and previously [Sam Wiseman](https://swiseman.github.io).
+I am a member of [DukeNLP](https://nlplab.cs.duke.edu/).
+My research investigates how LLMs explore, reason, and plan in dynamic environments.
+<!-- I research, through a language processing lens, how to help computers to learn, think, and communicate in the way human beings do.
 Humans learn language through brief interactions with the world at an early developmental stage, and then it becomes the [conduit](https://en.wikipedia.org/wiki/Conduit_metaphor) that transmits all kinds of knowledge between people.
-In constract, current most advanced learning systems *learn* language from billions of words in plain text.
-I'm thus interested in situated learning, especially in an interactive environment.
+In contrast, current most advanced learning systems *learn* language from trillions of words in plain text.
+I'm thus interested in efficient situated learning, especially in an interactive environment. -->
 
-Previously, I was an applied scientist at Microsoft.
 I did my master's work at the University of Virginia, where I was a member of the [ILP Lab](https://uvanlp.org/) working with [Yangfeng Ji](http://yangfengji.net).
-I've also spent time at Microsoft Research ([Beijing](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) and [Redmond](https://www.microsoft.com/en-us/research/group/deep-learning-group/)) since I was an undergraduate at [CUGB](https://en.cugb.edu.cn).
+I've also spent time at [Google DeepMind](https://deepmind.google/), Microsoft Advertising, and Microsoft Research ([Beijing](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) and [Redmond](https://www.microsoft.com/en-us/research/group/deep-learning-group/)).
 
 *I was lucky to have the opportunity to have great mentors and be involved in research during my undergrad study. If you're a Duke undergrad and feel like I can be of some help to your research career, feel free to email me.*
 
@@ -100,9 +101,59 @@ I've also spent time at Microsoft Research ([Beijing](https://www.microsoft.com/
 </experience>
 -->
 
-## Publications
+## Publications [[Scholar]](https://scholar.google.com/citations?user=YtxKsUMAAAAJ)
 
-<paper arxiv="https://arxiv.org/abs/2404.09911">
+<paper arxiv="https://arxiv.org/abs/2410.14651">
+<template #title>Real-time Fake News from Adversarial Feedback</template>
+<template #authors><strong>Sanxing Chen</strong>, Yukun Huang, Bhuwan Dhingra</template>
+<template #venue>Preprint, 2024</template>
+<template #abs>
+
+::: tip Abstract
+We show that existing evaluations for fake news detection based on conventional sources, such as claims on fact-checking websites, result in an increasing accuracy over time for LLM-based detectors -- even after their knowledge cutoffs. This suggests that recent popular political claims, which form the majority of fake news on such sources, are easily classified using surface-level shallow patterns. Instead, we argue that a proper fake news detection dataset should test a model's ability to reason factually about the current world by retrieving and reading related evidence. To this end, we develop a novel pipeline that leverages natural language feedback from a RAG-based detector to iteratively modify real-time news into deceptive fake news that challenges LLMs. Our iterative rewrite decreases the binary classification AUC by an absolute 17.5 percent for a strong RAG GPT-4o detector. Our experiments reveal the important role of RAG in both detecting and generating fake news, as retrieval-free LLM detectors are vulnerable to unseen events and adversarial attacks, while feedback from RAG detection helps discover more deceitful patterns in fake news.
+:::
+
+</template>
+<template #bib>
+
+``` tex
+@article{chen2024realtime,
+  title  = {Real-time Fake News from Adversarial Feedback},
+  author = {Sanxing Chen and Yukun Huang and Bhuwan Dhingra},
+  year   = {2024},
+  journal={arXiv preprint arXiv:2410.14651},
+}
+```
+
+</template>
+</paper>
+
+<paper arxiv="https://arxiv.org/abs/2410.14675" code="https://github.com/kkkevinkkkkk/situated_faithfulness">
+<template #title>Enhancing Large Language Models' Situated Faithfulness to External Contexts</template>
+<template #authors>Yukun Huang, <strong>Sanxing Chen</strong>, Hongyi Cai, Bhuwan Dhingra</template>
+<template #venue>Preprint, 2024</template>
+<template #abs>
+
+::: tip Abstract
+Large Language Models (LLMs) are often augmented with external information as contexts, but this external information can sometimes be inaccurate or even intentionally misleading. We argue that robust LLMs should demonstrate situated faithfulness, dynamically calibrating their trust in external information based on their confidence in the internal knowledge and the external context. To benchmark this capability, we evaluate LLMs across several QA datasets, including a newly created dataset called RedditQA featuring in-the-wild incorrect contexts sourced from Reddit posts. We show that when provided with both correct and incorrect contexts, both open-source and proprietary models tend to overly rely on external information, regardless of its factual accuracy. To enhance situated faithfulness, we propose two approaches: Self-Guided Confidence Reasoning (SCR) and Rule-Based Confidence Reasoning (RCR). SCR enables models to self-access the confidence of external information relative to their own internal knowledge to produce the most accurate answer. RCR, in contrast, extracts explicit confidence signals from the LLM and determines the final answer using predefined rules. Our results show that for LLMs with strong reasoning capabilities, such as GPT-4o and GPT-4o mini, SCR outperforms RCR, achieving improvements of up to 24.2% over a direct input augmentation baseline. Conversely, for a smaller model like Llama-3-8B, RCR outperforms SCR. Fine-tuning SCR with our proposed Confidence Reasoning Direct Preference Optimization (CR-DPO) method improves performance on both seen and unseen datasets, yielding an average improvement of 8.9% on Llama-3-8B. In addition to quantitative results, we offer insights into the relative strengths of SCR and RCR. Our findings highlight promising avenues for improving situated faithfulness in LLMs. The data and code are released.
+:::
+
+</template>
+<template #bib>
+
+``` tex
+@article{Huang2024enhancing,
+  title  = {Enhancing Large Language Models' Situated Faithfulness to External Contexts},
+  author = {Yukun Huang and Sanxing Chen and Hongyi Cai and Bhuwan Dhingra},
+  journal={arXiv preprint arXiv:2410.14675},
+  year={2024}
+}
+```
+
+</template>
+</paper>
+
+<paper arxiv="https://arxiv.org/abs/2404.09911" code="https://github.com/sanxing-chen/ChatShop">
 <template #title>ChatShop: Interactive Information Seeking with Language Agents</template>
 <template #authors><strong>Sanxing Chen</strong>, Sam Wiseman, Bhuwan Dhingra</template>
 <template #venue>Preprint, 2024</template>
@@ -312,7 +363,7 @@ In Text-to-SQL semantic parsing, selecting the correct entities (tables and colu
 
 ## Service
 
-- Program committee member (reviewer): COLING'2020, NAACL'2021, ACL'2021, EMNLP' 2021, NLPCC' 2021, ARR (regularly)
+- Reviewer: COLING'2020, NAACL'2021, ACL'2021, EMNLP'2021, NLPCC'2021, CoLM'2024, ARR (regularly)
 - Volunteer: ACL'2020, EMNLP'2020
 
 ## Misc
@@ -327,6 +378,3 @@ In Text-to-SQL semantic parsing, selecting the correct entities (tables and colu
 :email: sxing [dot] xyz [at] outlook [dot] com
 
 :bird: @sanxing_chen
-
-
-<a class="twitter-timeline" data-lang="en" data-width="390" data-height="600" data-theme="light" data-link-color="#e57200" href="https://twitter.com/sanxing_chen?ref_src=twsrc%5Etfw">Tweets by sanxing_chen</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
