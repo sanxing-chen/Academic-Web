@@ -38,7 +38,7 @@ I'm thus interested in efficient situated learning, especially in an interactive
 I did my master's work at the University of Virginia, where I was a member of the [ILP Lab](https://uvanlp.org/) working with [Yangfeng Ji](http://yangfengji.net).
 I've also spent time at [Google DeepMind](https://deepmind.google/), Microsoft Advertising, and Microsoft Research ([Beijing](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/) and [Redmond](https://www.microsoft.com/en-us/research/group/deep-learning-group/)).
 
-*I was lucky to have the opportunity to have great mentors and be involved in research during my undergrad study. If you're a Duke undergrad and feel like I can be of some help to your research career, feel free to email me.*
+*I was lucky to have great mentors and be involved in research during my undergrad study. If you're a Duke undergrad and feel like I can be of some help to your research career, feel free to email me!*
 
 ## News  :tada:
 - **[Jun 03, 2024]** I started my internship at [Google DeepMind](https://deepmind.google/) NYC!
@@ -110,7 +110,7 @@ I've also spent time at [Google DeepMind](https://deepmind.google/), Microsoft A
 <template #abs>
 
 ::: tip Abstract
-We show that existing evaluations for fake news detection based on conventional sources, such as claims on fact-checking websites, result in an increasing accuracy over time for LLM-based detectors -- even after their knowledge cutoffs. This suggests that recent popular political claims, which form the majority of fake news on such sources, are easily classified using surface-level shallow patterns. Instead, we argue that a proper fake news detection dataset should test a model's ability to reason factually about the current world by retrieving and reading related evidence. To this end, we develop a novel pipeline that leverages natural language feedback from a RAG-based detector to iteratively modify real-time news into deceptive fake news that challenges LLMs. Our iterative rewrite decreases the binary classification AUC by an absolute 17.5 percent for a strong RAG GPT-4o detector. Our experiments reveal the important role of RAG in both detecting and generating fake news, as retrieval-free LLM detectors are vulnerable to unseen events and adversarial attacks, while feedback from RAG detection helps discover more deceitful patterns in fake news.
+We show that existing evaluations for fake news detection based on conventional sources, such as claims on fact-checking websites, result in high accuracies over time for LLM-based detectors -- even after their knowledge cutoffs. This suggests that recent popular fake news from such sources can be easily detected due to pre-training and retrieval corpus contamination or increasingly salient shallow patterns. Instead, we argue that a proper fake news detection dataset should test a model's ability to reason factually about the current world by retrieving and reading related evidence. To this end, we develop a novel pipeline that leverages natural language feedback from a RAG-based detector to iteratively modify real-time news into deceptive fake news that challenges LLMs. Our iterative rewrite decreases the binary classification ROC-AUC by an absolute 17.5 percent for a strong RAG-based GPT-4o detector. Our experiments reveal the important role of RAG in both detecting and generating fake news, as retrieval-free LLM detectors are vulnerable to unseen events and adversarial attacks, while feedback from RAG detection helps discover more deceitful patterns in fake news.
 :::
 
 </template>
@@ -363,18 +363,22 @@ In Text-to-SQL semantic parsing, selecting the correct entities (tables and colu
 
 ## Service
 
-- Reviewer: COLING'2020, NAACL'2021, ACL'2021, EMNLP'2021, NLPCC'2021, CoLM'2024, ARR (regularly)
+- Reviewer: COLING'2020, NAACL'2021, ACL'2021, EMNLP'2021, NLPCC'2021, CoLM'2024, COLING'2024, ARR (regularly)
 - Volunteer: ACL'2020, EMNLP'2020
 
 ## Misc
 
-- My name is pronounced as "sǣnɕə̄ŋ".
+<!-- - My name is pronounced as "sǣnɕə̄ŋ". -->
 - I am originally from [Quanzhou](https://en.wikipedia.org/wiki/Quanzhou), China. It was one of the world's largest and most cosmopolitan seaports and now a [World Heritage Site](https://whc.unesco.org/en/list/1561). (Interestingly, UVA is also a [World Heritage Site](https://whc.unesco.org/en/list/442).)
-- I started playing the violin when I was a little boy.
+- I started playing the violin when I was seven.
+- I enjoy photography and traveling.
 
+<ImageGallery />
 
 ## Contact
 
 :email: sxing [dot] xyz [at] outlook [dot] com
 
 :bird: @sanxing_chen
+
+:camera: [Instagram](https://www.instagram.com/sxing.xyz/)
