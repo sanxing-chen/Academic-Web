@@ -25,6 +25,7 @@
           :style="imageStyle"
           @click.stop="handleImageClick"
           @wheel.stop.prevent="handleScroll"
+          ref="modalImage"
         >
       </div>
     </div>
@@ -112,8 +113,15 @@ export default {
         }
         // Adjust movement speed
         const moveSpeed = 1
-        this.translateX -= event.deltaX * moveSpeed / 2
-        this.translateY -= event.deltaY * moveSpeed / 2
+        const maxTranslateX = this.$refs.modalImage?.width / 4 || 0 // Maximum translation is 1/4 of image width (considering scale(2))
+        const maxTranslateY = 30
+        
+        const newTranslateX = this.translateX - (event.deltaX * moveSpeed / 2)
+        const newTranslateY = this.translateY - (event.deltaY * moveSpeed / 2)
+        
+        // Clamp the translation values
+        this.translateX = Math.max(-maxTranslateX, Math.min(maxTranslateX, newTranslateX))
+        this.translateY = Math.max(-maxTranslateY, Math.min(maxTranslateY, newTranslateY))
         
         // Debounce the scrolling state
         clearTimeout(this._scrollTimeout)
@@ -183,7 +191,6 @@ export default {
 }
 
 .modal-image {
-  max-width: 90%;
   max-height: 90vh;
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   transform-origin: center;
