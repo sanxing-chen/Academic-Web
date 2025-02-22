@@ -103,7 +103,7 @@ I've also spent time at [Google DeepMind](https://deepmind.google/), Microsoft A
 
 ## Publications [[Scholar]](https://scholar.google.com/citations?user=YtxKsUMAAAAJ)
 
-<paper arxiv="https://arxiv.org/abs/2410.14651">
+<paper arxiv="https://arxiv.org/abs/2410.14651" code="https://github.com/sanxing-chen/adv-fake">
 <template #title>Real-time Fake News from Adversarial Feedback</template>
 <template #authors><strong>Sanxing Chen</strong>, Yukun Huang, Bhuwan Dhingra</template>
 <template #venue>Preprint, 2024</template>
@@ -178,7 +178,7 @@ The desire and ability to seek new information strategically are fundamental to 
 </template>
 </paper>
 
-<paper arxiv="https://arxiv.org/abs/2404.09911" code="https://github.com/sanxing-chen/ChatShop">
+<paper arxiv="https://arxiv.org/abs/2404.09911" code="https://github.com/ybai-nlp/CItruS">
 <template #title>CItruS: Chunked Instruction-aware State Eviction for Long Sequence Modeling</template>
 <template #authors>Yu Bai, Xiyuan Zou, Heyan Huang, <strong>Sanxing Chen</strong>, Marc-Antoine Rondeau, Yang Gao, Jackie CK Cheung</template>
 <template #venue>EMNLP, 2024</template>
