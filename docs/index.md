@@ -131,7 +131,7 @@ We show that existing evaluations for fake news detection based on conventional 
 <paper arxiv="https://arxiv.org/abs/2410.14675" code="https://github.com/kkkevinkkkkk/situated_faithfulness">
 <template #title>Enhancing Large Language Models' Situated Faithfulness to External Contexts</template>
 <template #authors>Yukun Huang, <strong>Sanxing Chen</strong>, Hongyi Cai, Bhuwan Dhingra</template>
-<template #venue>Preprint, 2024</template>
+<template #venue>ICLR, 2024 (Spotlight)</template>
 <template #abs>
 
 ::: tip Abstract
@@ -177,6 +177,47 @@ The desire and ability to seek new information strategically are fundamental to 
 
 </template>
 </paper>
+
+<paper arxiv="https://arxiv.org/abs/2404.09911" code="https://github.com/sanxing-chen/ChatShop">
+<template #title>CItruS: Chunked Instruction-aware State Eviction for Long Sequence Modeling</template>
+<template #authors>Yu Bai, Xiyuan Zou, Heyan Huang, <strong>Sanxing Chen</strong>, Marc-Antoine Rondeau, Yang Gao, Jackie CK Cheung</template>
+<template #venue>EMNLP, 2024</template>
+<template #abs>
+
+::: tip Abstract
+Long sequence modeling has gained broad interest as large language models (LLMs) continue to advance. Recent research has identified that a large portion of hidden states within the key-value caches of Transformer models can be discarded (also termed evicted) withoutaffecting the perplexity performance in generating long sequences. However, we show that these methods, despite preserving perplexity performance, often drop information that is important for solving downstream tasks, a problem which we call information neglect. To address this issue, we introduce Chunked Instruction-aware State Eviction (CItruS), a novel modeling technique that integrates the attention preferences useful for a downstream task into the eviction process of hidden states. In addition, we design a method for chunked sequence processing to further improve efficiency. Our training-free method exhibits superior performance on long sequence comprehension and retrieval tasks over several strong baselines under the same memory budget, while preserving language modeling perplexity.
+:::
+
+</template>
+<template #bib>
+
+``` tex
+@inproceedings{bai-etal-2024-citrus,
+    title = "{CI}tru{S}: Chunked Instruction-aware State Eviction for Long Sequence Modeling",
+    author = "Bai, Yu  and
+      Zou, Xiyuan  and
+      Huang, Heyan  and
+      Chen, Sanxing  and
+      Rondeau, Marc-Antoine  and
+      Gao, Yang  and
+      Cheung, Jackie CK",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.338/",
+    doi = "10.18653/v1/2024.emnlp-main.338",
+    pages = "5908--5930"
+}
+```
+
+</template>
+</paper>
+
 
 <paper paper="https://aclanthology.org/2024.findings-naacl.164/" arxiv="https://arxiv.org/abs/2405.10861"  code="https://github.com/rickardstureborg/tailor-cgo">
 <template #title>Tailoring Vaccine Messaging with Common-Ground Opinions</template>
