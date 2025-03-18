@@ -131,7 +131,7 @@ We show that existing evaluations for fake news detection based on conventional 
 <paper arxiv="https://arxiv.org/abs/2410.14675" code="https://github.com/kkkevinkkkkk/situated_faithfulness">
 <template #title>Enhancing Large Language Models' Situated Faithfulness to External Contexts</template>
 <template #authors>Yukun Huang, <strong>Sanxing Chen</strong>, Hongyi Cai, Bhuwan Dhingra</template>
-<template #venue>ICLR, 2024 (Spotlight)</template>
+<template #venue>In ICLR, 2024 (Spotlight)</template>
 <template #abs>
 
 ::: tip Abstract
@@ -181,7 +181,7 @@ The desire and ability to seek new information strategically are fundamental to 
 <paper arxiv="https://arxiv.org/abs/2404.09911" code="https://github.com/ybai-nlp/CItruS">
 <template #title>CItruS: Chunked Instruction-aware State Eviction for Long Sequence Modeling</template>
 <template #authors>Yu Bai, Xiyuan Zou, Heyan Huang, <strong>Sanxing Chen</strong>, Marc-Antoine Rondeau, Yang Gao, Jackie CK Cheung</template>
-<template #venue>EMNLP, 2024</template>
+<template #venue>In EMNLP, 2024 (Main) </template>
 <template #abs>
 
 ::: tip Abstract
@@ -222,7 +222,7 @@ Long sequence modeling has gained broad interest as large language models (LLMs)
 <paper paper="https://aclanthology.org/2024.findings-naacl.164/" arxiv="https://arxiv.org/abs/2405.10861"  code="https://github.com/rickardstureborg/tailor-cgo">
 <template #title>Tailoring Vaccine Messaging with Common-Ground Opinions</template>
 <template #authors>Rickard Stureborg, <strong>Sanxing Chen</strong>, Ruoyu Xie, Aayushi Patel, Christopher Li, Chloe Qinyu Zhu, Tingnan Hu, Jun Yang, Bhuwan Dhingra</template>
-<template #venue>In NAACL'2024 (Poster)</template>
+<template #venue>In NAACL'2024 (Findings)</template>
 <template #abs>
 
 ::: tip Abstract
@@ -245,32 +245,6 @@ One way to personalize chatbot interactions is by establishing common ground wit
 
 </template>
 </paper>
-
-<paper arxiv="https://arxiv.org/abs/2401.11323">
-<template #title>Analyzing Task-Encoding Tokens in Large Language Models</template>
-<template #authors>Yu Bai, Heyan Huang, Cesare Spinoso-Di Piano, Marc-Antoine Rondeau, <strong>Sanxing Chen</strong>, Yang Gao, Jackie Chi Kit Cheung</template>
-<template #venue>Preprint, 2024</template>
-<template #abs>
-
-::: tip Abstract
-In-context learning (ICL) has become an effective solution for few-shot learning in natural language processing. Past work has found that, during this process, representations of the last prompt token are utilized to store task reasoning procedures, thereby explaining the working mechanism of in-context learning. In this paper, we seek to locate and analyze other task-encoding tokens whose representations store task reasoning procedures. Supported by experiments that ablate the representations of different token types, we find that template and stopword tokens are the most prone to be task-encoding tokens. In addition, we demonstrate experimentally that lexical cues, repetition, and text formats are the main distinguishing characteristics of these tokens. Our work provides additional insights into how large language models (LLMs) leverage task reasoning procedures in ICL and suggests that future work may involve using task-encoding tokens to improve the computational efficiency of LLMs at inference time and their ability to handle long sequences.
-:::
-
-</template>
-<template #bib>
-
-``` tex
-@article{bai2024analyzing,
-  title   = {Analyzing Task-Encoding Tokens in Large Language Models},
-  author  = {Yu Bai and Heyan Huang and Cesare Spinoso-Di Piano and Marc-Antoine Rondeau and Sanxing Chen and Yang Gao and Jackie Chi Kit Cheung},
-  year    = {2024},
-  journal = {arXiv preprint arXiv: 2401.11323}
-}
-```
-
-</template>
-</paper>
-
 
 <paper arxiv="https://arxiv.org/abs/2303.15682" code="https://github.com/microsoft/HittER">
 <template #title>Pre-training Transformers for Knowledge Graph Completion</template>
